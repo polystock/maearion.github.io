@@ -5,52 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maearion</title>
   <style>
-    body {
+    * {
       margin: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(to bottom, #e0f7fa, #fffde7);
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      color: #333;
-      text-align: center;
+      padding: 0;
     }
-    h1 {
-      font-size: 6rem;
-      margin: 0;
-      letter-spacing: 0.15em;
-      color: #0277bd;
+    body, html {
+      height: 100%;
+      overflow: hidden;
+      background: #0a0a0a;
     }
-    p {
-      font-size: 1.8rem;
-      margin: 1.5rem 0;
-      max-width: 600px;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 92%;
+      max-height: 85vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 0 60px rgba(255, 120, 120, 0.4));
     }
-    .small {
-      font-size: 1.3rem;
-      color: #555;
-      margin-top: 3rem;
-    }
-    a {
-      color: #0277bd;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
+    @media (max-width: 768px) {
+      img {
+        max-width: 95%;
+        max-height: 80vh;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Maearion</h1>
-  <p>부드럽게 메아리치는 온기</p>
-  <p>곧 당신의 내면을 조용히 지켜줄 존재가 찾아옵니다.<br>조금만 기다려 주세요.</p>
-  
-  <div class="small">
-    <p>zerocycle8에서 먼저 만나보세요</p>
-    <a href="https://x.com/zerocycle8" target="_blank">@zerocycle8</a>
-  </div>
+  <img src="메아리 하겠어요마크.png" alt="Maearion">
 </body>
 </html>
