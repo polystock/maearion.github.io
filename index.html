@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maearion</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-    body, html {
-      height: 100%;
-      overflow: hidden;
-      background: #0a0a0a;
-    }
-    img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      max-width: 92%;
-      max-height: 85vh;
-      width: auto;
-      height: auto;
-      object-fit: contain;
-      filter: drop-shadow(0 0 60px rgba(255, 120, 120, 0.4));
-    }
-    @media (max-width: 768px) {
-      img {
-        max-width: 95%;
-        max-height: 80vh;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메아리온 | 우리 가족의 정직한 보약</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111111;
+            color: #f5f5f5;
+            font-family: 'Noto Sans KR', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        
+        .hero {
+            max-width: 720px;
+            padding: 40px 20px;
+        }
+        
+        .logo {
+            width: 220px;
+            margin-bottom: 50px;
+        }
+        
+        .slogan {
+            font-size: 2.1rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 24px;
+            color: #ffffff;
+        }
+        
+        .sub-headline {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            color: #cccccc;
+            max-width: 560px;
+            margin: 0 auto;
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-  <img src="logo.png" alt="Maearion">
+    <div class="hero">
+        <!-- 로고 -->
+        <img src="logo.png" alt="메아리온 로고" class="logo">
+
+        <!-- 메인 슬로건 -->
+        <h1 class="slogan">
+            우리 가족의 정직한 보약 한 숟갈.
+        </h1>
+
+        <!-- 서브 헤드라인 -->
+        <p class="sub-headline">
+            밥은 기본. 가족의 사랑은 정직한 원료와 함량의 보약 한 숟갈을 더 얹는다.
+        </p>
+    </div>
+
+    <div class="footer">
+        © Mearion
+    </div>
 </body>
 </html>
