@@ -1,184 +1,122 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>메아리온 | 우리 가족의 정직한 보약</title>
-    <meta name="description" content="메아리온은 정직한 원료와 함량을 공개하는 반려동물 건강식품 브랜드입니다. 반려동물 영양·성분·양육 통계에 관한 정보를 정리해 제공합니다.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://maearion.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="메아리온 | 우리 가족의 정직한 보약">
-    <meta property="og:description" content="정직한 원료와 함량. 반려동물 영양·성분 정보 아카이브.">
-    <meta property="og:url" content="https://maearion.com/">
-    <meta property="og:site_name" content="메아리온">
-    <meta property="og:locale" content="ko_KR">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "메아리온",
-      "alternateName": "Maearion",
-      "url": "https://maearion.com/",
-      "logo": "https://maearion.com/logo.png",
-      "description": "정직한 원료와 함량을 공개하는 반려동물 건강식품 브랜드.",
-      "parentOrganization": { "@type": "Organization", "name": "에카온" }
-    }
-    </script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background-color: #111111;
-            color: #f5f5f5;
-            font-family: 'Noto Sans KR', sans-serif;
-            min-height: 100vh;
-            padding: 60px 20px 80px;
-        }
-        .container {
-            max-width: 720px;
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .logo {
-            width: 65%;
-            max-width: 420px;
-            min-width: 240px;
-            margin: 0 auto 50px;
-            display: block;
-        }
-        .slogan {
-            font-size: 2.2rem;
-            font-weight: 700;
-            line-height: 1.35;
-            margin-bottom: 28px;
-            color: #ffffff;
-        }
-        .sub-headline {
-            font-size: 1.15rem;
-            line-height: 1.7;
-            color: #cccccc;
-            max-width: 580px;
-            margin: 0 auto;
-        }
-        /* 콘텐츠 목차 */
-        .archive {
-            margin-top: 80px;
-            text-align: left;
-            border-top: 1px solid #2a2a2a;
-            padding-top: 44px;
-        }
-        .archive h2 {
-            font-size: 1.15rem;
-            font-weight: 700;
-            color: #ffffff;
-            margin-bottom: 8px;
-        }
-        .archive .desc {
-            font-size: .95rem;
-            color: #888;
-            margin-bottom: 28px;
-        }
-        .archive ul {
-            list-style: none;
-        }
-        .archive li {
-            border-bottom: 1px solid #222;
-        }
-        .archive a {
-            display: block;
-            padding: 18px 4px;
-            color: #f0f0f0;
-            text-decoration: none;
-            font-size: 1.05rem;
-            font-weight: 500;
-            line-height: 1.5;
-            transition: color .15s;
-        }
-        .archive a:hover {
-            color: #e08b83;
-        }
-        .archive .summary {
-            display: block;
-            margin-top: 6px;
-            font-size: .9rem;
-            font-weight: 400;
-            color: #999;
-        }
-        .footer {
-            margin-top: 60px;
-            font-size: .85rem;
-            color: #666;
-            text-align: center;
-            line-height: 1.8;
-        }
-        @media (max-width: 768px) {
-            .slogan { font-size: 1.85rem; }
-            .sub-headline { font-size: 1.05rem; }
-            .logo { margin-bottom: 40px; }
-            .archive { margin-top: 60px; }
-        }
-        @media (max-width: 480px) {
-            .slogan { font-size: 1.65rem; }
-            .sub-headline { font-size: 1rem; }
-            .archive a { font-size: 1rem; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>메아리온 | 반려동물 건강·영양 정보</title>
+<meta name="description" content="메아리온은 반려동물의 건강, 영양과 급여, 안전, 통계 정보를 근거와 함께 정리하는 정보 아카이브입니다. 정직한 원료와 함량을 공개하는 반려동물 건강식품 브랜드가 운영합니다.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://maearion.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="메아리온 | 반려동물 건강·영양 정보">
+<meta property="og:description" content="반려동물의 건강·영양·안전·통계를 근거와 함께 정리합니다.">
+<meta property="og:url" content="https://maearion.com/">
+<meta property="og:site_name" content="메아리온">
+<meta property="og:locale" content="ko_KR">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"메아리온","alternateName":"Maearion","url":"https://maearion.com/","inLanguage":"ko","description":"반려동물 건강·영양 정보 아카이브","publisher":{"@type":"Organization","name":"메아리온","logo":"https://maearion.com/logo.png","parentOrganization":{"@type":"Organization","name":"에카온"}}}
+</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#111;color:#f5f5f5;font-family:'Noto Sans KR',sans-serif;min-height:100vh;padding:60px 20px 80px;}
+.container{max-width:760px;margin:0 auto;}
+.hero{text-align:center;}
+.logo{width:60%;max-width:380px;min-width:220px;margin:0 auto 44px;display:block;}
+.slogan{font-size:2.1rem;font-weight:700;line-height:1.35;margin-bottom:24px;color:#fff;}
+.sub{font-size:1.1rem;line-height:1.7;color:#ccc;max-width:560px;margin:0 auto;}
+.section{margin-top:76px;border-top:1px solid #2a2a2a;padding-top:40px;}
+.section-title{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:6px;}
+.section-desc{font-size:.95rem;color:#888;margin-bottom:32px;}
+.cat{margin-bottom:40px;}
+.cat-head{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid #2a2a2a;padding-bottom:10px;margin-bottom:6px;}
+.cat-head h3{font-size:1.05rem;font-weight:700;color:#e08b83;}
+.cat-head a{font-size:.85rem;color:#888;text-decoration:none;}
+.cat-head a:hover{color:#e08b83;}
+.cat-desc{font-size:.88rem;color:#777;margin:8px 0 4px;}
+ul{list-style:none;}
+li{border-bottom:1px solid #1e1e1e;}
+li a{display:block;padding:15px 2px;color:#f0f0f0;text-decoration:none;font-size:1rem;font-weight:500;line-height:1.5;transition:color .15s;}
+li a:hover{color:#e08b83;}
+.summary{display:block;margin-top:5px;font-size:.87rem;font-weight:400;color:#8e8e8e;}
+.about{margin-top:70px;border-top:1px solid #2a2a2a;padding-top:36px;font-size:.95rem;color:#aaa;line-height:1.85;}
+.about h3{font-size:1.05rem;color:#fff;margin-bottom:12px;}
+.about p{margin-bottom:14px;}
+.footer{margin-top:52px;font-size:.85rem;color:#666;text-align:center;line-height:1.8;}
+@media(max-width:768px){.slogan{font-size:1.8rem;}.sub{font-size:1rem;}}
+@media(max-width:480px){.slogan{font-size:1.6rem;}li a{font-size:.97rem;}}
+</style>
 </head>
 <body>
-    <div class="container">
-        <!-- 로고 -->
-        <img src="logo.png" alt="메아리온 로고" class="logo">
-        <!-- 메인 슬로건 -->
-        <h1 class="slogan">
-            우리 가족의 정직한 보약 한 숟갈.
-        </h1>
-        <!-- 서브 헤드라인 -->
-        <p class="sub-headline">
-            밥은 기본. 가족의 사랑은 정직한 원료와 함량의 보약 한 숟갈을 더 얹는다.
-        </p>
+<div class="container">
 
-        <!-- 콘텐츠 목차 -->
-        <section class="archive">
-            <h2>반려동물 정보</h2>
-            <p class="desc">반려동물의 영양과 성분에 관해 정리한 자료입니다.</p>
-            <ul>
-                <li>
-                    <a href="/dog-joint-supplement-guide.html">
-                        강아지 관절 영양제 성분 가이드
-                        <span class="summary">글루코사민·콘드로이친·MSM·오메가3의 역할과 제품 고르는 기준</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/pet-supplement-label-reading.html">
-                        반려동물 영양제 성분표·함량 읽는 법
-                        <span class="summary">원료명과 함량 병기, 표기 순서, 보장성분 확인하기</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/pet-nutrition-by-age.html">
-                        강아지·고양이 나이별 필요 영양
-                        <span class="summary">성장기·성년기·노령기 영양 포인트와 고양이 타우린</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="/pet-care-korea-2025.html">
-                        2025 한국 반려동물 양육 현황 통계
-                        <span class="summary">양육가구 비율과 반려견·반려묘 마릿수, 기관별 수치 차이</span>
-                    </a>
-                </li>
-            </ul>
-        </section>
+  <div class="hero">
+    <img src="logo.png" alt="메아리온 로고" class="logo">
+    <h1 class="slogan">우리 가족의 정직한 보약 한 숟갈.</h1>
+    <p class="sub">밥은 기본. 가족의 사랑은 정직한 원료와 함량의 보약 한 숟갈을 더 얹는다.</p>
+  </div>
 
-        <p class="footer">
-            메아리온 · 에카온<br>
-            본 사이트의 정보는 일반적인 참고용이며 수의학적 진단을 대체하지 않습니다.
-        </p>
+  <div class="section">
+    <p class="section-title">반려동물 정보</p>
+    <p class="section-desc">건강·영양·안전에 관한 정보를 출처와 근거를 밝혀 정리합니다.</p>
+
+    <div class="cat">
+      <div class="cat-head"><h3>통설 검증</h3><a href="/myths.html">전체 보기 →</a></div>
+      <p class="cat-desc">널리 알려진 이야기를 근거로 확인해 판정합니다</p>
+      <ul>
+        <li><a href="/myth-senior-dog-protein.html">"노령견은 단백질을 줄여야 한다"는 사실인가<span class="summary">판정: 근거 없음 — 1940년대 쥐 실험에서 온 통설</span></a></li>
+        <li><a href="/myth-dog-age-seven.html">"강아지 나이 × 7 = 사람 나이"는 사실인가<span class="summary">판정: 근거 없음 — 개는 곡선으로 나이를 먹는다</span></a></li>
+      </ul>
     </div>
+
+    <div class="cat">
+      <div class="cat-head"><h3>건강</h3><a href="/health.html">전체 보기 →</a></div>
+      <p class="cat-desc">관절, 노령기 관리 등 몸 상태에 관한 정보</p>
+      <ul>
+        <li><a href="/dog-joint-supplement-guide.html">관절 영양제 성분, 근거 등급으로 다시 보기<span class="summary">오메가3·콜라겐·글루코사민을 임상 근거 강도 순으로</span></a></li>
+        <li><a href="/dog-omega3-dosage.html">강아지 오메가3 급여량 계산법<span class="summary">EPA·DHA mg/kg 기준과 어유 캡슐 표기의 함정</span></a></li>
+        <li><a href="/dog-weight-joint-health.html">체중과 관절 건강 — 영양제보다 먼저인 것<span class="summary">11~18% 감량과 파행 감소의 연관</span></a></li>
+      </ul>
+    </div>
+
+    <div class="cat">
+      <div class="cat-head"><h3>영양·급여</h3><a href="/nutrition.html">전체 보기 →</a></div>
+      <p class="cat-desc">무엇을 얼마나 먹일지, 라벨을 어떻게 읽을지</p>
+      <ul>
+        <li><a href="/dog-daily-calorie-calculation.html">강아지 하루 필요 칼로리 계산법<span class="summary">RER·MER 공식과 국내 자료에 퍼진 계산식 오류</span></a></li>
+        <li><a href="/pet-nutrition-by-age.html">강아지·고양이 나이별 필요 영양<span class="summary">성장기·성년기·노령기 포인트와 고양이 타우린</span></a></li>
+        <li><a href="/pet-supplement-label-reading.html">반려동물 영양제 성분표·함량 읽는 법<span class="summary">원료명과 함량 병기, 표기 순서, 보장성분</span></a></li>
+      </ul>
+    </div>
+
+    <div class="cat">
+      <div class="cat-head"><h3>안전</h3><a href="/safety.html">전체 보기 →</a></div>
+      <p class="cat-desc">위험한 것과 그 이유, 그리고 대처</p>
+      <ul>
+        <li><a href="/dog-toxic-foods.html">강아지에게 위험한 음식<span class="summary">자일리톨·포도·초콜릿·양파의 위험 기전과 대처</span></a></li>
+      </ul>
+    </div>
+
+    <div class="cat">
+      <div class="cat-head"><h3>데이터·제도</h3><a href="/data.html">전체 보기 →</a></div>
+      <p class="cat-desc">통계와 제도로 보는 반려동물 환경</p>
+      <ul>
+        <li><a href="/pet-care-korea-2025.html">2025 한국 반려동물 양육 현황 통계<span class="summary">양육가구 비율과 마릿수, 기관별 수치 차이</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="about">
+    <h3>이 사이트에 대하여</h3>
+    <p>메아리온은 반려동물 건강식품 브랜드로, 원료와 함량을 감추지 않고 공개하는 것을 원칙으로 삼습니다. 이 사이트는 그 원칙을 정보에도 적용해, 반려동물의 건강과 영양에 관한 내용을 <strong>출처와 근거의 강도를 함께 밝혀</strong> 정리합니다.</p>
+    <p>널리 알려진 통설이라도 임상 근거가 확립되지 않았다면 그렇게 적고, 수치를 인용할 때는 어느 기관의 어느 자료인지 함께 표시합니다. 브랜드는 현재 제품 준비 단계이며, 이 사이트는 판매를 위한 공간이 아니라 정보를 축적하는 공간입니다.</p>
+  </div>
+
+  <p class="footer">
+    메아리온 · 에카온<br>
+    본 사이트의 정보는 일반적인 참고용이며 수의학적 진단을 대체하지 않습니다.
+  </p>
+
+</div>
 </body>
 </html>
