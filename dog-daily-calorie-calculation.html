@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>강아지 하루 필요 칼로리 계산법 — RER·MER 공식과 흔한 계산 오류</title>
-<meta name="description" content="강아지 하루 필요 칼로리는 안정시 에너지요구량(RER)에 활동 계수를 곱해 구한다. RER = 70 × 체중^0.75이며, 국내 자료에 자주 보이는 70 × (체중 × 0.75)는 거듭제곱을 곱셈으로 잘못 옮긴 오류다. 사료 급여량 환산까지 정리한다.">
+<meta name="description" content="강아지 하루 필요 칼로리는 안정시 에너지요구량(RER)에 활동 계수를 곱해 구한다. RER = 70 × 체중^0.75이며, 국내 자료에 보이는 70 × (체중 × 0.75)는 거듭제곱을 곱셈으로 잘못 옮긴 오류다. 2026년 8월 한국어 자료 11건 실태 조사 결과와 사료 급여량 환산을 함께 정리한다.">
 <meta name="robots" content="index, follow">
 <meta name="author" content="에카원">
 <link rel="canonical" href="https://maearion.com/dog-daily-calorie-calculation.html">
@@ -15,13 +15,13 @@
 <meta property="og:site_name" content="메아리온">
 <meta property="og:locale" content="ko_KR">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"강아지 하루 필요 칼로리 계산법: RER·MER 공식과 흔한 계산 오류","description":"RER = 70 × 체중^0.75 공식과 국내 자료의 곱셈 오류 정정, 사료량 환산.","inLanguage":"ko","datePublished":"2026-08-01","dateModified":"2026-08-01","author":{"@type":"Organization","name":"에카원"},"publisher":{"@type":"Organization","name":"메아리온"},"mainEntityOfPage":"https://maearion.com/dog-daily-calorie-calculation.html"}
+{"@context":"https://schema.org","@type":"Article","headline":"강아지 하루 필요 칼로리 계산법: RER·MER 공식과 흔한 계산 오류","description":"RER = 70 × 체중^0.75 공식과 국내 자료의 곱셈 오류 정정, 사료량 환산.","inLanguage":"ko","datePublished":"2026-08-01","dateModified":"2026-08-05","author":{"@type":"Organization","name":"에카원"},"publisher":{"@type":"Organization","name":"메아리온"},"mainEntityOfPage":"https://maearion.com/dog-daily-calorie-calculation.html"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"강아지 하루 필요 칼로리는 어떻게 계산하나요?","acceptedAnswer":{"@type":"Answer","text":"먼저 안정시 에너지요구량 RER을 구합니다. RER = 70 × 체중(kg)의 0.75제곱입니다. 여기에 중성화 여부와 활동량에 따른 계수를 곱하면 하루 필요 칼로리(MER 또는 DER)가 됩니다. 체중 2~45kg 구간에서는 RER = 30 × 체중 + 70 이라는 간편식도 근사값으로 쓰입니다."}},
 {"@type":"Question","name":"RER = 70 × (체중 × 0.75)가 맞나요?","acceptedAnswer":{"@type":"Answer","text":"틀린 식입니다. 0.75는 곱하는 수가 아니라 지수(거듭제곱)입니다. 올바른 식은 70 × 체중의 0.75제곱입니다. 국내 일부 자료에서 거듭제곱 표기가 곱셈으로 잘못 옮겨져 퍼져 있는데, 이 식을 쓰면 결과가 크게 어긋납니다."}},
-{"@type":"Question","name":"계산한 칼로리로 사료량은 어떻게 구하나요?","acceptedAnswer":{"@type":"Answer","text":"하루 필요 칼로리를 사료의 열량 밀도로 나눕니다. 사료 포장의 대사에너지(ME) 표기가 kcal/kg이면 1000으로 나눠 kcal/g으로 바꾼 뒤 계산합니다."}}]}
+{"@type":"Question","name":"국내 자료는 RER 공식을 얼마나 정확하게 적고 있나요?","acceptedAnswer":{"@type":"Answer","text":"2026년 8월 기준으로 RER 공식을 표기한 한국어 자료 11건을 직접 수집해 분류한 결과, 표준식을 거듭제곱으로 정확히 적은 자료가 4건, 지수를 곱셈으로 잘못 옮긴 오식이 2건, 근사식 30 × 체중 + 70만 제시한 자료가 5건이었습니다. 근사식만 제시한 5건 중 유효 체중 범위(약 2~45kg)를 밝힌 곳은 1건뿐이었습니다. 오식 2건은 모두 표준식을 2kg 미만 또는 45kg 이상 구간의 예외 공식으로 소개하는 구조였고, 예시 계산을 근사식으로만 하기 때문에 잘못된 식이 검산되지 않은 채 남아 있었습니다."}},{"@type":"Question","name":"계산한 칼로리로 사료량은 어떻게 구하나요?","acceptedAnswer":{"@type":"Answer","text":"하루 필요 칼로리를 사료의 열량 밀도로 나눕니다. 사료 포장의 대사에너지(ME) 표기가 kcal/kg이면 1000으로 나눠 kcal/g으로 바꾼 뒤 계산합니다."}}]}
 </script>
 <style>
 :root{--bg:#fff;--fg:#1a1a1a;--muted:#666;--line:#e5e5e5;--accent:#d9736a;--soft:#faf7f6;--warn:#fdf3f2;}
@@ -55,7 +55,7 @@ code{background:#f2f2f2;padding:2px 6px;border-radius:4px;font-size:.95em;}
 <div class="brand"><a href="/">← 메아리온</a></div>
 <h1>강아지 하루 필요 칼로리 계산법 — RER·MER과 흔한 계산 오류</h1>
 
-<p class="lead">강아지의 하루 필요 칼로리는 안정시 에너지요구량(RER)을 구한 뒤 활동 계수를 곱해 계산한다. RER 공식은 <code>70 × 체중(kg)^0.75</code>이며, 여기서 0.75는 곱하는 수가 아니라 <strong>지수(거듭제곱)</strong>다. 국내 자료 중에는 이를 <code>70 × (체중 × 0.75)</code>로 잘못 옮긴 경우가 적지 않은데, 이 식으로 계산하면 결과가 크게 어긋난다.</p>
+<p class="lead">강아지의 하루 필요 칼로리는 안정시 에너지요구량(RER)을 구한 뒤 활동 계수를 곱해 계산한다. RER 공식은 <code>70 × 체중(kg)^0.75</code>이며, 여기서 0.75는 곱하는 수가 아니라 <strong>지수(거듭제곱)</strong>다. 국내 자료 중에는 이를 <code>70 × (체중 × 0.75)</code>로 잘못 옮긴 경우가 있다. 2026년 8월 기준으로 공식을 표기한 한국어 자료 11건을 직접 확인한 결과 <strong>2건이 이 오식</strong>이었고, <strong>5건은 근사식만 제시</strong>했으며 그중 4건은 근사식의 유효 체중 범위를 밝히지 않았다.</p>
 <p class="meta">작성: 에카원 · 2026년 8월</p>
 
 <div class="warn">
@@ -94,6 +94,52 @@ code{background:#f2f2f2;padding:2px 6px;border-radius:4px;font-size:.95em;}
 </div>
 <p>사료 포장에는 대사에너지(ME)가 kcal/kg 또는 kcal/g으로 표기된다. kcal/kg으로 적혀 있으면 1000으로 나눠 kcal/g으로 바꾼 뒤 계산한다. 간식을 준다면 그 열량도 하루 총량에 포함해야 한다.</p>
 
+<h2>국내 자료 실태 조사 (2026년 8월)</h2>
+<p>"국내 자료 중에 잘못 옮긴 것이 있다"는 말은 세어 보기 전까지는 인상일 뿐이다. 그래서 직접 셌다.</p>
+<p><strong>방법.</strong> 2026년 8월 5일, 한국어 검색에서 "강아지 하루 필요 칼로리", "사료 급여량 계산", "고양이 RER 계산" 등으로 노출된 결과 중 <strong>RER 공식을 실제로 표기한 한국어 자료 11건</strong>을 수집해 표기 방식을 분류했다. 검색 노출을 기준으로 삼았으므로 무작위 표본이 아니며, 국내 자료 전체의 분포가 아니라 <strong>보호자가 실제로 마주치는 자료의 분포</strong>에 가깝다.</p>
+
+<table>
+<thead><tr><th>표기 방식</th><th>건수</th></tr></thead>
+<tbody>
+<tr><td>표준식을 거듭제곱으로 정확히 표기</td><td>4</td></tr>
+<tr><td>지수를 곱셈으로 옮긴 오식 <code>70 × (체중 × 0.75)</code></td><td>2</td></tr>
+<tr><td>간편식 <code>30 × 체중 + 70</code>만 제시</td><td>5</td></tr>
+</tbody>
+</table>
+<p class="src">※ 수집한 자료의 주소와 확인 시점은 별도로 보관하고 있다. 표기 오류를 근거로 특정 사업자를 지목하는 것은 이 문서의 목적이 아니므로 실명은 싣지 않는다. 웹 문서는 수정될 수 있어 위 분류는 확인 시점 기준이다.</p>
+
+<h3>발견 1 — 오식은 특정한 자리에서만 나온다</h3>
+<p>오식 2건은 <strong>둘 다 같은 구조</strong>였다. 간편식을 주 공식으로 놓고, 표준식은 "체중 2kg 미만 또는 45kg 이상일 때 쓰는 예외 공식"으로 소개하는 형태다. 반대로 표준식을 주 공식으로 쓴 4건에서는 오식이 한 건도 없었다.</p>
+<p>이 구조가 오식을 살려 두는 이유가 있다. 예시 계산을 전부 간편식으로 하기 때문에 <strong>잘못 적힌 식이 한 번도 검산되지 않는다.</strong> 표준식은 적혀만 있고 쓰이지 않으므로, 값이 이상하다는 신호가 발생할 기회 자체가 없다.</p>
+
+<h3>발견 2 — 오차가 가장 큰 구간이 하필 그 구간이다</h3>
+<p>오식이 배치된 자리는 2kg 미만과 45kg 이상이다. 그런데 오식의 오차는 정확히 그 양 끝에서 가장 크다.</p>
+<table>
+<thead><tr><th>체중</th><th>표준식(정답)</th><th>간편식</th><th>오식</th></tr></thead>
+<tbody>
+<tr><td>1.5kg</td><td>95kcal</td><td>115kcal (+21%)</td><td>79kcal (−17%)</td></tr>
+<tr><td>5kg</td><td>234kcal</td><td>220kcal (−6%)</td><td>263kcal (+12%)</td></tr>
+<tr><td>10kg</td><td>394kcal</td><td>370kcal (−6%)</td><td>525kcal (+33%)</td></tr>
+<tr><td>20kg</td><td>662kcal</td><td>670kcal (+1%)</td><td>1,050kcal (+59%)</td></tr>
+<tr><td>45kg</td><td>1,216kcal</td><td>1,420kcal (+17%)</td><td>2,363kcal (+94%)</td></tr>
+<tr><td>60kg</td><td>1,509kcal</td><td>1,870kcal (+24%)</td><td>3,150kcal (+109%)</td></tr>
+</tbody>
+</table>
+<p>45kg 대형견에 오식을 적용하면 하루 권장량이 <strong>두 배 가까이</strong> 나온다. 그 식을 쓰라고 지정된 구간이 바로 거기다.</p>
+
+<h3>발견 3 — 더 흔한 문제는 오식이 아니다</h3>
+<p>수집한 11건 중 오식은 2건이지만, <strong>간편식만 제시한 자료가 5건</strong>으로 더 많았다. 그리고 그 5건 중 유효 범위(약 2~45kg)를 밝힌 것은 1건뿐이었다. 나머지 4건은 체중 제한 없이 <code>30 × 체중 + 70</code>을 유일한 공식으로 제시한다.</p>
+<p>국내는 소형견 비중이 높아 체중 2kg 미만 개체가 드물지 않다. 1.5kg 개체에 간편식을 그대로 쓰면 실제 필요량보다 <strong>21% 많게</strong> 나온다. 오식보다 눈에 덜 띄지만, 해당하는 개체 수를 생각하면 실제 영향은 이쪽이 더 클 수 있다.</p>
+<p>정리하면, 국내 자료의 주된 문제는 "틀린 공식을 쓴다"기보다 <strong>"근사식을 근사식이라고 밝히지 않는다"</strong>에 가깝다.</p>
+
+<h3>조사의 한계</h3>
+<ul>
+<li>표본 11건은 통계적 대표성을 주장하기에 작다. 비율보다 <strong>구조적 패턴</strong>을 읽는 데 쓰는 것이 적절하다.</li>
+<li>검색 노출 기준 수집이므로 검색 순위 알고리즘의 영향을 받는다. 검색어와 시점이 달라지면 구성이 달라질 수 있다.</li>
+<li>공식을 표기하지 않고 계산기만 제공하는 자료(정부기관 계산기 포함)는 내부 계산식을 확인할 수 없어 분류에서 제외했다.</li>
+<li>이 조사는 2026년 8월 5일 기준이며, 이후 갱신 시 결과와 표본 수를 함께 다시 밝힌다.</li>
+</ul>
+
 <h2>계산값의 한계</h2>
 <ul>
 <li>이 계산은 <strong>출발점</strong>이지 정답이 아니다. 개체별 대사 차이가 있어, 실제로는 2~4주 간격으로 체중과 체형을 보며 조정해야 한다.</li>
@@ -104,6 +150,7 @@ code{background:#f2f2f2;padding:2px 6px;border-radius:4px;font-size:.95em;}
 <h2>자주 묻는 질문 (FAQ)</h2>
 <div class="faq"><h3>Q. 하루 필요 칼로리 계산법은?</h3><p>A. RER = 70 × 체중^0.75을 구한 뒤 활동 계수를 곱합니다. 2~45kg 구간에서는 30 × 체중 + 70 근사식도 쓰입니다.</p></div>
 <div class="faq"><h3>Q. 70 × (체중 × 0.75)가 맞나요?</h3><p>A. 틀렸습니다. 0.75는 지수입니다. 곱셈으로 계산하면 값이 어긋납니다.</p></div>
+<div class="faq"><h3>Q. 국내 자료는 이 공식을 얼마나 정확하게 적고 있나요?</h3><p>A. 2026년 8월 기준으로 공식을 표기한 한국어 자료 11건을 확인한 결과, 표준식을 정확히 적은 곳이 4건, 지수를 곱셈으로 잘못 옮긴 곳이 2건, 근사식만 제시한 곳이 5건이었습니다. 근사식만 제시한 5건 중 유효 체중 범위를 밝힌 곳은 1건뿐이었습니다.</p></div>
 <div class="faq"><h3>Q. 사료량은 어떻게 구하나요?</h3><p>A. 하루 필요 칼로리를 사료의 kcal/g으로 나눕니다. 포장 표기가 kcal/kg이면 1000으로 나눠 환산합니다.</p></div>
 
 <h2>참고 문헌</h2>
