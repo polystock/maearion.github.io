@@ -1,0 +1,45 @@
+- key: basics
+  name: 몸과 생물학
+  status: active
+  desc: >-
+    소화와 대사, 감각, 노화. 영양과 안전 규칙 대부분이 여기서 나옵니다.
+- key: health
+  name: 건강·질병
+  status: active
+  desc: >-
+    관절, 노령기 관리, 질환. 통설과 임상 근거가 어긋나는 지점을 함께 짚습니다.
+- key: nutrition
+  name: 영양·급여
+  status: active
+  desc: >-
+    무엇을 얼마나 먹일지, 사료와 영양제 라벨을 어떻게 읽을지.
+- key: safety
+  name: 안전
+  status: active
+  desc: >-
+    위험한 것과 그 이유. 목록을 외우기보다 기전을 알도록 정리합니다.
+- key: data
+  name: 데이터·제도
+  status: active
+  desc: >-
+    양육 현황과 시장 자료. 조사 방식과 기준 시점을 함께 밝힙니다.
+- key: myths
+  name: 통설 검증
+  status: active
+  desc: >-
+    널리 알려진 이야기를 근거로 확인해 판정합니다. 다른 분류와 교차합니다.
+- key: behavior
+  name: 행동·훈련
+  status: planned
+  desc: >-
+    사회화와 학습, 분리불안 같은 문제행동, 몸짓으로 하는 의사표현.
+- key: care
+  name: 돌봄·생활
+  status: planned
+  desc: >-
+    위생과 미용, 치아 관리, 산책과 운동, 실내 환경 만들기.
+- key: adoption
+  name: 입양·제도
+  status: planned
+  desc: >-
+    입양 절차, 동물등록제, 관련 법과 표시 기준, 병원과 보험.

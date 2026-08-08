@@ -1,0 +1,36 @@
+title: 메아리온
+description: 반려동물 정보 아카이브
+url: https://maearion.com
+lang: ko
+
+collections:
+  docs:
+    output: true
+    permalink: /:name.html
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: doc
+      css: doc.css
+      jsonld: article
+      og_type: article
+
+plugins: []
+
+# 테마 비활성 (2026-08-08)
+# github-pages gem 기본 테마가 jekyll-theme-primer 이며,
+# _config.yml 이 존재하는 것만으로 assets/css/style.css(136KB)가
+# 산출물에 생성된다. 이 사이트는 assets/ 의 자체 CSS 4개만 쓴다.
+# 본 저장소 이행 후에도 이 줄을 유지할 것. 지우면 테마가 되살아난다.
+theme:
+
+exclude:
+  - README.md
+  - URL_MANIFEST.txt
+  - tools/
+  - Gemfile
+  - Gemfile.lock
+  - .github/

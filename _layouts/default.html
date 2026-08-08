@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
+<meta name="robots" content="index, follow">
+<meta name="author" content="에카원">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="{{ page.og_type }}">
+<meta property="og:title" content="{{ page.og_title }}">
+<meta property="og:description" content="{{ page.og_description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="메아리온">
+<meta property="og:locale" content="ko_KR">
+{% include jsonld-article.html %}
+{% include jsonld-faqpage.html %}
+<link rel="stylesheet" href="/assets/{{ page.css }}">
+</head>
+<body>
+{{ content }}
+</body>
+</html>

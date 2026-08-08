@@ -1,0 +1,33 @@
+name: Build Jekyll site
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: false
+      - name: Install dependencies
+        run: bundle install
+      - name: Build site
+        run: bundle exec jekyll build
+      - name: List site files
+        run: find _site -type f -print | sort
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
+          if-no-files-found: error
