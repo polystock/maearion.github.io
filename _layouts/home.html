@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description | replace: '"', '&quot;' }}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.og_title | replace: '"', '&quot;' }}">
+<meta property="og:description" content="{{ page.og_description | replace: '"', '&quot;' }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}/logo.png">
+<meta property="og:site_name" content="메아리온">
+<meta property="og:locale" content="ko_KR">
+{% include jsonld-website.html %}
+<link rel="stylesheet" href="/assets/{{ page.css }}">
+<!-- 카운터 정의 (2026-08-07 확정)
+     문서       = 본문 문서 총수. 분류 페이지·index·myths 제외. 통설 문서 포함.
+     분류       = 분류 셀 총수. 준비 중 포함.
+     검증 항목  = myths.html의 "검증한 통설" + "잘못 퍼진 정보" 총계.
+     홈 발췌    = 「검증한 통설」 카드 수. 위 검증 항목과 별개이며 전체 수가 아님.
+     분류 명칭  = data.html은 "데이터·제도"로 통일(정본: data.html의 h1).
+-->
+</head>
+{{ content }}

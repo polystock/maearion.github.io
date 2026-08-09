@@ -1,31 +1,17 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>메아리온 — 반려동물 정보 아카이브</title>
-<meta name="description" content="메아리온은 반려동물에 관한 정보를 모아 정리하는 아카이브입니다. 생물학과 노화, 건강과 질병, 영양과 급여, 안전, 행동, 돌봄, 제도까지 다루며, 수치와 주장은 출처와 근거를 밝혀 싣습니다.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://maearion.com/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="메아리온 — 반려동물 정보 아카이브">
-<meta property="og:description" content="생물학·건강·영양·안전·행동·제도까지, 반려동물 정보를 근거와 함께 정리합니다.">
-<meta property="og:url" content="https://maearion.com/">
-<meta property="og:image" content="https://maearion.com/logo.png">
-<meta property="og:site_name" content="메아리온">
-<meta property="og:locale" content="ko_KR">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"메아리온","alternateName":"Maearion","url":"https://maearion.com/","inLanguage":"ko","description":"반려동물 정보 아카이브. 생물학·건강·영양·안전·행동·돌봄·제도 전반을 근거와 함께 정리합니다.","publisher":{"@type":"Organization","name":"메아리온","logo":"https://maearion.com/logo.png","parentOrganization":{"@type":"Organization","name":"에카원"}}}
-</script>
-<link rel="stylesheet" href="/assets/home.css">
-<!-- 카운터 정의 (2026-08-07 확정)
-     문서       = 본문 문서 총수. 분류 페이지·index·myths 제외. 통설 문서 포함.
-     분류       = 분류 셀 총수. 준비 중 포함.
-     검증 항목  = myths.html의 "검증한 통설" + "잘못 퍼진 정보" 총계.
-     홈 발췌    = 「검증한 통설」 카드 수. 위 검증 항목과 별개이며 전체 수가 아님.
-     분류 명칭  = data.html은 "데이터·제도"로 통일(정본: data.html의 h1).
--->
-</head>
+---
+layout: home
+css: home.css
+title: >-
+  메아리온 — 반려동물 정보 아카이브
+description: >-
+  메아리온은 반려동물에 관한 정보를 모아 정리하는 아카이브입니다. 생물학과 노화, 건강과 질병, 영양과 급여, 안전, 행동, 돌봄, 제도까지 다루며, 수치와 주장은 출처와 근거를 밝혀 싣습니다.
+og_title: >-
+  메아리온 — 반려동물 정보 아카이브
+og_description: >-
+  생물학·건강·영양·안전·행동·제도까지, 반려동물 정보를 근거와 함께 정리합니다.
+ld_description: >-
+  반려동물 정보 아카이브. 생물학·건강·영양·안전·행동·돌봄·제도 전반을 근거와 함께 정리합니다.
+---
 <body>
 
 <header class="masthead">
@@ -50,7 +36,7 @@
     <p class="eyebrow">반려동물 정보 아카이브</p>
     <h1>반려동물에 대해<br>알아야 할 것들을 모읍니다.</h1>
     <p class="blurb">몸의 구조와 노화 같은 기본부터 건강, 영양, 안전, 행동, 돌봄, 제도까지. 흩어져 있는 정보를 한자리에 정리하고, 수치와 주장에는 어디서 나온 것인지 출처를 함께 답니다.</p>
-    <p class="stat"><span>문서 <b>16</b></span><span>분류 <b>9</b></span><span>검증 항목 <b>8</b></span></p>
+    <p class="stat"><span>문서 <b>{{ site.docs | size }}</b></span><span>분류 <b>{{ site.data.categories | size }}</b></span><span>검증 항목 <b>{% assign v = site.data.myths.verified.cards | size %}{% assign m = site.data.myths.misinfo.cards | size %}{{ v | plus: m }}</b></span></p>
   </div>
 </section>
 
@@ -60,52 +46,17 @@
     <p class="band-lede">아홉 개 분류로 나눠 채워 갑니다. 아직 비어 있는 분류는 준비 중으로 표시했습니다.</p>
 
     <div class="map">
-      <a class="cell" href="/basics.html">
-        <span class="count">문서 3</span>
-        <h3>몸과 생물학</h3>
-        <p>소화와 대사, 감각, 노화. 영양과 안전 규칙 대부분이 여기서 나옵니다.</p>
+{% for cat in site.data.categories %}{% if cat.status == 'active' %}      <a class="cell" href="/{{ cat.key }}.html">
+        <span class="count">{% if cat.key == 'myths' %}통설 {{ site.data.myths.verified.cards | size }} · 오류 {{ site.data.myths.misinfo.cards | size }}{% else %}문서 {{ site.docs | where: "category", cat.key | size }}{% endif %}</span>
+        <h3>{{ cat.name }}</h3>
+        <p>{{ cat.desc }}</p>
       </a>
-      <a class="cell" href="/health.html">
-        <span class="count">문서 4</span>
-        <h3>건강·질병</h3>
-        <p>관절, 노령기 관리, 질환. 통설과 임상 근거가 어긋나는 지점을 함께 짚습니다.</p>
-      </a>
-      <a class="cell" href="/nutrition.html">
-        <span class="count">문서 4</span>
-        <h3>영양·급여</h3>
-        <p>무엇을 얼마나 먹일지, 사료와 영양제 라벨을 어떻게 읽을지.</p>
-      </a>
-      <a class="cell" href="/safety.html">
-        <span class="count">문서 2</span>
-        <h3>안전</h3>
-        <p>위험한 것과 그 이유. 목록을 외우기보다 기전을 알도록 정리합니다.</p>
-      </a>
-      <a class="cell" href="/data.html">
-        <span class="count">문서 1</span>
-        <h3>데이터·제도</h3>
-        <p>양육 현황과 시장 자료. 조사 방식과 기준 시점을 함께 밝힙니다.</p>
-      </a>
-      <a class="cell" href="/myths.html">
-        <span class="count">통설 7 · 오류 1</span>
-        <h3>통설 검증</h3>
-        <p>널리 알려진 이야기를 근거로 확인해 판정합니다. 다른 분류와 교차합니다.</p>
-      </a>
-      <div class="cell soon">
+{% else %}      <div class="cell soon">
         <span class="count">준비 중</span>
-        <h3>행동·훈련</h3>
-        <p>사회화와 학습, 분리불안 같은 문제행동, 몸짓으로 하는 의사표현.</p>
+        <h3>{{ cat.name }}</h3>
+        <p>{{ cat.desc }}</p>
       </div>
-      <div class="cell soon">
-        <span class="count">준비 중</span>
-        <h3>돌봄·생활</h3>
-        <p>위생과 미용, 치아 관리, 산책과 운동, 실내 환경 만들기.</p>
-      </div>
-      <div class="cell soon">
-        <span class="count">준비 중</span>
-        <h3>입양·제도</h3>
-        <p>입양 절차, 동물등록제, 관련 법과 표시 기준, 병원과 보험.</p>
-      </div>
-    </div>
+{% endif %}{% endfor %}    </div>
   </div>
 </section>
 
@@ -166,27 +117,12 @@
     </div>
     <p class="band-lede">정보를 정리하다 보면 널리 퍼진 이야기와 실제 연구 결과가 어긋나는 경우를 만납니다. 그런 항목은 따로 확인해 판정을 남깁니다.</p>
     <ul class="verdicts">
-      <li><a href="/myth-senior-dog-protein.html">
-        <span class="tag t-false">근거 없음</span>
-        <span><span class="title">"노령견은 단백질을 줄여야 한다"</span>
-        <span class="desc">1940년대 설치류 연구에서 온 통설. 건강한 노령견에서 제한은 불필요하며 근육 손실을 악화시킬 수 있습니다.</span></span>
+{% for grp in site.data.myths %}{% for c in grp[1].cards %}{% if c.home %}      <li><a href="{{ c.href }}">
+        <span class="tag {{ c.home.tag_class }}">{{ c.badge }}</span>
+        <span><span class="title">{{ c.claim }}</span>
+        <span class="desc">{{ c.home.desc }}</span></span>
       </a></li>
-      <li><a href="/myth-dog-age-seven.html">
-        <span class="tag t-false">근거 없음</span>
-        <span><span class="title">"강아지 나이 × 7 = 사람 나이"</span>
-        <span class="desc">첫 1년이 사람 약 15세, 2년째에 약 24세가 되고 이후 체구에 따라 매년 4~7세가 더해지는 곡선입니다.</span></span>
-      </a></li>
-      <li><a href="/dog-joint-supplement-guide.html">
-        <span class="tag t-none">효과 확인 안 됨</span>
-        <span><span class="title">"글루코사민·콘드로이친이 관절에 좋다"</span>
-        <span class="desc">2022년 골관절염 메타분석은 뚜렷한 효과가 없었다며 통증 관리 목적의 권장 중단을 제언했습니다.</span></span>
-      </a></li>
-      <li><a href="/dog-daily-calorie-calculation.html">
-        <span class="tag t-err">계산식 오류</span>
-        <span><span class="title">"RER = 70 × (체중 × 0.75)"</span>
-        <span class="desc">0.75는 곱하는 수가 아니라 지수입니다. 올바른 식은 70 × 체중^0.75입니다.</span></span>
-      </a></li>
-    </ul>
+{% endif %}{% endfor %}{% endfor %}    </ul>
   </div>
 </section>
 
