@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description | replace: '"', '&quot;' }}">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.og_title | replace: '"', '&quot;' }}">
+<meta property="og:description" content="{{ page.og_description | replace: '"', '&quot;' }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="메아리온">
+<meta property="og:locale" content="ko_KR">
+{% include jsonld-collectionpage.html %}
+{% include jsonld-breadcrumb.html %}
+<link rel="stylesheet" href="/assets/{{ page.css }}">
+</head>
+{{ content }}
