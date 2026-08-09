@@ -1,31 +1,35 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>강아지 하루 필요 칼로리 계산법 — RER·MER 공식과 흔한 계산 오류</title>
-<meta name="description" content="강아지 하루 필요 칼로리는 안정시 에너지요구량(RER)에 활동 계수를 곱해 구한다. RER = 70 × 체중^0.75이며, 국내 자료에 자주 보이는 70 × (체중 × 0.75)는 거듭제곱을 곱셈으로 잘못 옮긴 오류다. 사료 급여량 환산까지 정리한다.">
-<meta name="robots" content="index, follow">
-<meta name="author" content="에카원">
-<link rel="canonical" href="https://maearion.com/dog-daily-calorie-calculation.html">
-<meta property="og:type" content="article">
-<meta property="og:title" content="강아지 하루 필요 칼로리 계산법 — RER·MER과 흔한 오류">
-<meta property="og:description" content="RER = 70 × 체중^0.75. 곱셈으로 잘못 옮긴 공식 오류와 올바른 계산법.">
-<meta property="og:url" content="https://maearion.com/dog-daily-calorie-calculation.html">
-<meta property="og:site_name" content="메아리온">
-<meta property="og:locale" content="ko_KR">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":"강아지 하루 필요 칼로리 계산법: RER·MER 공식과 흔한 계산 오류","description":"RER = 70 × 체중^0.75 공식과 국내 자료의 곱셈 오류 정정, 사료량 환산.","inLanguage":"ko","datePublished":"2026-08-01","dateModified":"2026-08-01","author":{"@type":"Organization","name":"에카원"},"publisher":{"@type":"Organization","name":"메아리온"},"mainEntityOfPage":"https://maearion.com/dog-daily-calorie-calculation.html"}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"강아지 하루 필요 칼로리는 어떻게 계산하나요?","acceptedAnswer":{"@type":"Answer","text":"먼저 안정시 에너지요구량 RER을 구합니다. RER = 70 × 체중(kg)의 0.75제곱입니다. 여기에 중성화 여부와 활동량에 따른 계수를 곱하면 하루 필요 칼로리(MER 또는 DER)가 됩니다. 체중 2~45kg 구간에서는 RER = 30 × 체중 + 70 이라는 간편식도 근사값으로 쓰입니다."}},
-{"@type":"Question","name":"RER = 70 × (체중 × 0.75)가 맞나요?","acceptedAnswer":{"@type":"Answer","text":"틀린 식입니다. 0.75는 곱하는 수가 아니라 지수(거듭제곱)입니다. 올바른 식은 70 × 체중의 0.75제곱입니다. 국내 일부 자료에서 거듭제곱 표기가 곱셈으로 잘못 옮겨져 퍼져 있는데, 이 식을 쓰면 결과가 크게 어긋납니다."}},
-{"@type":"Question","name":"계산한 칼로리로 사료량은 어떻게 구하나요?","acceptedAnswer":{"@type":"Answer","text":"하루 필요 칼로리를 사료의 열량 밀도로 나눕니다. 사료 포장의 대사에너지(ME) 표기가 kcal/kg이면 1000으로 나눠 kcal/g으로 바꾼 뒤 계산합니다."}}]}
-</script>
-<link rel="stylesheet" href="/assets/doc.css">
-</head>
-<body>
+---
+title: >-
+  강아지 하루 필요 칼로리 계산법 — RER·MER 공식과 흔한 계산 오류
+og_title: >-
+  강아지 하루 필요 칼로리 계산법 — RER·MER과 흔한 오류
+description: >-
+  강아지 하루 필요 칼로리는 안정시 에너지요구량(RER)에 활동 계수를 곱해 구한다. RER = 70 × 체중^0.75이며, 국내 자료에 자주 보이는 70 × (체중 × 0.75)는 거듭제곱을 곱셈으로 잘못 옮긴 오류다. 사료 급여량 환산까지 정리한다.
+og_description: >-
+  RER = 70 × 체중^0.75. 곱셈으로 잘못 옮긴 공식 오류와 올바른 계산법.
+ld_headline: >-
+  강아지 하루 필요 칼로리 계산법: RER·MER 공식과 흔한 계산 오류
+ld_description: >-
+  RER = 70 × 체중^0.75 공식과 국내 자료의 곱셈 오류 정정, 사료량 환산.
+published_at: "2026-08-01"
+modified_at: "2026-08-01"
+category: nutrition
+nav_variant: brand-link
+meta_variant: authored-month
+faq:
+  - q: >-
+      강아지 하루 필요 칼로리는 어떻게 계산하나요?
+    a: >-
+      먼저 안정시 에너지요구량 RER을 구합니다. RER = 70 × 체중(kg)의 0.75제곱입니다. 여기에 중성화 여부와 활동량에 따른 계수를 곱하면 하루 필요 칼로리(MER 또는 DER)가 됩니다. 체중 2~45kg 구간에서는 RER = 30 × 체중 + 70 이라는 간편식도 근사값으로 쓰입니다.
+  - q: >-
+      RER = 70 × (체중 × 0.75)가 맞나요?
+    a: >-
+      틀린 식입니다. 0.75는 곱하는 수가 아니라 지수(거듭제곱)입니다. 올바른 식은 70 × 체중의 0.75제곱입니다. 국내 일부 자료에서 거듭제곱 표기가 곱셈으로 잘못 옮겨져 퍼져 있는데, 이 식을 쓰면 결과가 크게 어긋납니다.
+  - q: >-
+      계산한 칼로리로 사료량은 어떻게 구하나요?
+    a: >-
+      하루 필요 칼로리를 사료의 열량 밀도로 나눕니다. 사료 포장의 대사에너지(ME) 표기가 kcal/kg이면 1000으로 나눠 kcal/g으로 바꾼 뒤 계산합니다.
+---
 <main class="wrap">
 <div class="brand"><a href="/">← 메아리온</a></div>
 <h1>강아지 하루 필요 칼로리 계산법 — RER·MER과 흔한 계산 오류</h1>
@@ -103,5 +107,3 @@
 
 <p class="note">본 페이지는 일반적인 정보 제공용이며 수의학적 진단·처방을 대체하지 않습니다. 급여량 결정은 수의사와 상담하시기 바랍니다.</p>
 </main>
-</body>
-</html>
