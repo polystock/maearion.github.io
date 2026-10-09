@@ -37,7 +37,7 @@
 | 저자 결론: 초기 체중 증가는 섭취 증가 때문 | S2 | Abstract | "initial post-neutering weight gain in male cats results from increased FI and not decreased EE" |
 | 한계: 대조군 없음, 수컷만 | S2 | Discussion | "a control group of intact male cats was not included" |
 | 암컷 새끼 고양이 12쌍(한배 형제), 19주령 중성화, 자유급식 | S3 | Materials and methods; Abstract | 한배 암컷 쌍 12쌍, 무작위 배정, 19주령 중성화, free access |
-| 섭취량 정점에서 17% 많음 | S3 | Results | 중성화 후 10주 시점 17%(95% CI 8–27) 많음 |
+| 체중 1kg당 섭취 열량(모형 추정치) 정점에서 17% 많음 | S3 | Results; Fig. 1 | 단위 kJ/kg BW. 중성화 후 10주 시점 최대 차이 17%(95% CI 8–27). 같은 시점 관측 총섭취량은 1200·81 대 866·09 kJ |
 | 52주령에 24% 무거움 | S3 | Results | "the neutered kittens were 24 (95 % CI 11, 39) % ... heavier than entire littermates" |
 | 섭취량 차이가 사라진 뒤에도 체중이 더 늘어 필요량이 줄어든 것으로 해석 | S3 | Discussion; Abstract | 37주령부터 같은 양을 먹었는데도 체중 차이 유지 → 대사에너지 필요량 감소 시사, BCS 기준 급여 권고 |
 | 사후 분석(post hoc) 한계 | S3 | Abstract | 무관한 연구 데이터의 사후 분석 |
@@ -57,3 +57,4 @@
 ## 독립 검수 반영
 - 1차 검수(불일치 4·출처에 없음 2): 제목의 「수술이 살을 만드는 것은 아니다」 교체, lead의 「피할 수 없다는 뜻이 아니다」 교체, 저자 한계 귀속(품종·혼종) 정정, 고정 비율 문장 삭제, 「개 코호트 연구」→AAHA 지침+골든 리트리버 코호트로 한정, 조사 경과 문장을 참고 문헌 기준 서술로 교체, FAQ4에 12개월 초과 무리 위험비 보충.
 - 2차 검수(불일치 0·출처에 없음 1·열람 불가 0): 「감량 폭은 나이·성장 단계·활동량에 따라 다르므로 수의사와 정한다」 삭제, FAQ3의 「구체적인 양은 수의사와 정하는 것이 맞습니다」 삭제. BCS 상승을 「약 1점」으로 표기(원문 5.5→6.4).
+- 외부 검수(GPT, 23043516 대상) 불일치 1건 반영: 17%가 총섭취량이 아니라 체중 1kg당 섭취 열량의 모형 추정치임을 원문(Results 「intake (kJ/kg BW)」)에서 직접 확인하고 분모를 명시.
