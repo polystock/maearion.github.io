@@ -59,7 +59,10 @@
 ## 8. PR
 - 브랜치 `daily/<slug>`, main 기준. 커밋 1개.
 - PR 제목: `[daily] <문서 제목>`
-- PR 본문: 한 줄 요약 / 바뀐 파일 / blob SHA·빌드 sha256 / 자료 부족·삭제한 문장이 있으면 그 목록.
+- PR 본문 맨 위에 **외부 AI 검수용 링크 2개**(브랜치 기준 raw 주소):
+  `원고: https://raw.githubusercontent.com/polystock/maearion.github.io/daily/<slug>/_docs/<slug>.html`
+  `근거표: https://raw.githubusercontent.com/polystock/maearion.github.io/daily/<slug>/_ops/evidence/<slug>.md`
+- 그 아래: 한 줄 요약 / 바뀐 파일 / blob SHA·빌드 sha256 / 자료 부족·삭제한 문장이 있으면 그 목록.
 - PR에 댓글로 최종 검수표를 단다(1차·2차 결과 모두).
 - PR을 머지하지 않는다.
 ## 9. 보고
