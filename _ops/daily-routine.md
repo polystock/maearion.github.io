@@ -14,6 +14,7 @@
 ## 0. 준비
 - 레포 `polystock/maearion.github.io`를 push 권한으로 붙이고 clone한다.
 - `apt-get install -y jekyll` (rubygems 접근 불가라 gem 설치는 실패한다)
+- GitHub: `gh pr create` 등 GraphQL 기반 명령은 막혀 있다. `unset GH_TOKEN` 후 `gh api repos/polystock/maearion.github.io/...` REST 경로만 쓴다(PR 생성 `POST /pulls`, 댓글 `POST /issues/{n}/comments`, 목록 `GET /pulls?state=open`).
 
 ## 1. 주제 고르기
 - `_ops/topic-queue.md`에서 첫 항목 중 다음을 모두 만족하는 것:
@@ -61,6 +62,7 @@
 - PR 본문: 한 줄 요약 / 바뀐 파일 / blob SHA·빌드 sha256 / 자료 부족·삭제한 문장이 있으면 그 목록.
 - PR에 댓글로 최종 검수표를 단다(1차·2차 결과 모두).
 - PR을 머지하지 않는다.
+- **GEO 관측 보호:** 정기 관측은 매주 일요일 10시(KST)이고, 직전 48시간(금요일 10시~일요일 관측 완료)에는 저장소 개입을 넣지 않는다. 금·토·일 새벽에 만든 PR은 제목 앞에 `[관측 후 머지]`를 붙이고 본문 첫 줄에 "일요일 관측 완료 후 머지"라고 적는다.
 
 ## 9. 보고
 - 결과를 한 줄로: `PR #N 올림: <제목>` 또는 `보류: <사유>` 또는 `큐 비었음`.
