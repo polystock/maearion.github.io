@@ -62,7 +62,9 @@
 - PR 본문 맨 위에 **외부 AI 검수용 링크 2개**(브랜치 기준 raw 주소):
   `원고: https://raw.githubusercontent.com/polystock/maearion.github.io/daily/<slug>/_docs/<slug>.html`
   `근거표: https://raw.githubusercontent.com/polystock/maearion.github.io/daily/<slug>/_ops/evidence/<slug>.md`
-- 그 아래: 한 줄 요약 / 바뀐 파일 / blob SHA·빌드 sha256 / 자료 부족·삭제한 문장이 있으면 그 목록.
+- 그 아래: **검수 대상 커밋 SHA**(PR head 커밋 전체 40자) / 한 줄 요약 / 바뀐 파일 / blob SHA·빌드 sha256 / 자료 부족·삭제한 문장이 있으면 그 목록.
+- **버전 고정:** PR을 연 뒤에는 그 브랜치에 커밋을 더 올리지 않는다. 고쳐야 하면(2단계 rebase 포함) PR 본문의 검수 대상 SHA를 새 값으로 바꾸고 PR 댓글로 "재검수 필요: 이전 SHA → 새 SHA"를 남긴다. 외부 검수 결과는 그 결과가 적은 SHA와 PR head SHA가 같을 때만 유효하다.
+- **실패는 통과가 아니다:** 검수 에이전트가 끝나지 않았거나, 판정이 빠진 항목이 있거나, 열람 불가가 남아 있으면 PR 제목 앞에 `[검수 미완]`을 붙이고 본문에 그 항목을 적는다.
 - PR에 댓글로 최종 검수표를 단다(1차·2차 결과 모두).
 - PR을 머지하지 않는다.
 ## 9. 보고
