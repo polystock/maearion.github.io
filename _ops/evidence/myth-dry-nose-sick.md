@@ -8,7 +8,7 @@
 |---|---|---|---|
 | S1 | Bálint A, Andics A, Gácsi M, et al. Dogs can sense weak thermal radiation. Sci Rep 2020;10:3736. doi:10.1038/s41598-020-60439-y | nature.com 본문 | 원문 열람 |
 | S2 | Jagannathan V, Bannoehr J, Plattet P, et al. A mutation in the SUV39H2 gene in Labrador Retrievers with hereditary nasal parakeratosis (HNPK)… PLoS Genet 2013;9(10):e1003848 | boris.unibe.ch 저장소 PDF(출판본) | 원문 열람 |
-| S3 | Goig M, Godino J, Tejedor MT, Burgio F. Correlation of temperature-sensing microchip and rectal temperature measurements in cats. Front Vet Sci 2023;10:1319722 | frontiersin.org 본문 | 원문 열람 |
+| S3 | Goig M, Godino J, Tejedor MT, Burgio F. Correlation of temperature-sensing microchip and rectal temperature measurements in cats. Front Vet Sci 2024;10:1319722 (권 표기는 "Volume 10 - 2023", 발행 연도 2024) | frontiersin.org 본문 | 원문 열람 |
 | S4 | Heinrich NA. Nasal Dermatoses of Dogs. Merck Veterinary Manual (full review 2024-02, updated 2024-09) | merckvetmanual.com | 원문 열람(수의학 참고서, 보조) |
 | S5 | Normal Rectal Temperature Ranges (표). Merck Veterinary Manual — Robertshaw D, Dukes' Physiology of Domestic Animals 12판(2004) 인용 | merckvetmanual.com | 원문 열람(참고서 표, 보조) |
 
@@ -45,3 +45,4 @@
 ## 검수 경과
 - 1차 독립 검수: 불일치 2(「코끝 상태」→ 측정된 것은 온도), 출처에 없음 6(통설 확산 정도, 코 만지기로 체온 가늠 불가 2건, 진료 순서 권고, 「대개 형태의 변화」, 「한쪽만」) → 문장 수정·삭제.
 - 2차 독립 검수(새 에이전트): 불일치 4(모두 Merck "otitis"를 「중이염」으로 특정) → 해당 문장 삭제. 출처에 없음 0, 열람 불가 0.
+- PR 후 외부 검수(SHA 7bba61a): Goig 연구 발행 연도 2023 표기 불일치 1건 → frontiersin.org 메타데이터(YEAR=2024, VOLUME=Volume 10 - 2023) 확인 후 본문·참고 문헌 연도를 2024로 수정.
