@@ -19,7 +19,7 @@
 
 | 본문 문장(또는 수치) | 출처 | 원문 위치 | 원문 해당 내용 요지 |
 |---|---|---|---|
-| 목줄을 풀었을 때 문제 행동이 있는 개 63마리, 21마리씩 3그룹, 5일간 최대 150분 | S1 | Abstract; Methods | 63 dogs with off-lead problems, three groups of 21, up to 150 min over 5 days |
+| 목줄을 풀었을 때 문제 행동이 있는 개 63마리, 21마리씩 3그룹, 5일간 합계 최대 150분 | S1 | Abstract; Methods | 63 dogs with off-lead problems, three groups of 21, up to 150 min over 5 days |
 | 그룹 정의: 제조사 협회 추천 훈련사 + 전기 자극 / 같은 훈련사 전기 자극 없이 / 독립 훈련사 정적 강화 중심 | S1 | Methods: Training groups | manufacturer-nominated (ECMA); Control 1 same trainers without e-stimuli; Control 2 APDT trainers focus on positive reinforcement |
 | 첫 지시 수행률 이리 와 71.0/72.4/82.5%, 앉아 76.8/72.7/83.5% | S1 | Table 4 | 표 값 |
 | 보상 중심 그룹이 두 지시 모두 첫 지시 수행 유의하게 높음, 반응 시간 짧음, 불복종 비율 차이 없음 | S1 | Abstract; Results | "significantly better responses to both … after a single instruction"; shorter latencies than E-collar; no difference in proportion disobeyed |
@@ -39,3 +39,4 @@
 ## 검수 경과
 - 1차 독립 검수: 불일치 4(「세 연구 모두 무작위 배정 아님」 2곳 — S1은 전기 목걸이·대조군1을 무작위 배정, 대조군2만 별도 모집 / 「많이 쓸수록 스트레스 지표」 일반화 — S3은 빈도 미반영·판단 편향만 측정 / 「수십 마리」 — 실제 63~100마리) → 4곳 모두 수정.
 - 2차 독립 검수(새 에이전트): 불일치 0, 출처에 없음 0, 열람 불가 0. 참고 1건(S2 판단 편향은 「모든 위치」에서 느림) → 표현을 원문 범위로 맞춤.
+- PR 후 외부 검수(SHA 7c9c12c): 「5일 동안 최대 150분씩」은 하루당으로 읽힘 — 원문은 5일 합계 최대 150분 → 「모두 합쳐」로 수정.
