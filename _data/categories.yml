@@ -30,7 +30,7 @@
     널리 알려진 이야기를 근거로 확인해 판정합니다. 다른 분류와 교차합니다.
 - key: behavior
   name: 행동·훈련
-  status: planned
+  status: active
   desc: >-
     사회화와 학습, 분리불안 같은 문제행동, 몸짓으로 하는 의사표현.
 - key: care

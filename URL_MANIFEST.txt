@@ -4,6 +4,7 @@
 /nutrition.html
 /safety.html
 /data.html
+/behavior.html
 /myths.html
 /cat-dog-metabolism.html
 /cat-dog-senses.html
@@ -23,3 +24,4 @@
 /dog-periodontal-disease.html
 /myth-neutering-weight-gain.html
 /myth-dry-nose-sick.html
+/dog-training-reward-vs-aversive.html
