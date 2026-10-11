@@ -22,3 +22,4 @@
 /dog-heatstroke.html
 /dog-periodontal-disease.html
 /myth-neutering-weight-gain.html
+/myth-dry-nose-sick.html
