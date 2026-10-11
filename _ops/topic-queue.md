@@ -22,6 +22,6 @@
 - pet-food-type-comparison | nutrition | 사료 종류별 비교 — 건식·습식·생식
 - cat-aging-biology | basics | 고양이의 노화
 - pet-body-temperature-sleep | basics | 체온·수면의 기본 생리
-- korea-pet-registration | data | 동물등록제 — 대상, 방법, 등록률 자료
+- korea-pet-registration | adoption | 동물등록제 — 대상, 방법, 과태료
 - pet-market-size-estimates | data | 반려동물 시장 규모 추정치는 왜 다른가
 - breed-genetic-predisposition | basics | 품종별 유전 질환 소인

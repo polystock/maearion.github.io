@@ -6,6 +6,7 @@
 /data.html
 /behavior.html
 /care.html
+/adoption.html
 /myths.html
 /cat-dog-metabolism.html
 /cat-dog-senses.html
@@ -27,3 +28,4 @@
 /myth-dry-nose-sick.html
 /dog-training-reward-vs-aversive.html
 /dog-toothbrushing.html
+/korea-pet-registration.html

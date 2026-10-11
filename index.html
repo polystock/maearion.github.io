@@ -43,7 +43,7 @@ ld_description: >-
 <section class="band" id="map">
   <div class="wrap">
     <div class="band-head"><h2>분류</h2></div>
-    <p class="band-lede">아홉 개 분류로 나눠 채워 갑니다. 아직 비어 있는 분류는 준비 중으로 표시했습니다.</p>
+    <p class="band-lede">아홉 개 분류로 나눠 채워 갑니다.</p>
 
     <div class="map">
 {% for cat in site.data.categories %}{% if cat.status == 'active' %}      <a class="cell" href="/{{ cat.key }}.html">
@@ -110,6 +110,12 @@ ld_description: >-
         <h3>돌봄·생활</h3>
         <ul>
           <li><a href="/dog-toothbrushing.html">개 양치질 — 얼마나 자주, 효과는 어디까지인가</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>입양·제도</h3>
+        <ul>
+          <li><a href="/korea-pet-registration.html">동물등록제 — 누가, 언제, 어떻게 등록하나</a></li>
         </ul>
       </section>
       <section>
