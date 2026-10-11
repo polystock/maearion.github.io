@@ -35,7 +35,7 @@
     사회화와 학습, 분리불안 같은 문제행동, 몸짓으로 하는 의사표현.
 - key: care
   name: 돌봄·생활
-  status: planned
+  status: active
   desc: >-
     위생과 미용, 치아 관리, 산책과 운동, 실내 환경 만들기.
 - key: adoption
