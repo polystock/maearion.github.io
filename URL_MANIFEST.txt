@@ -29,3 +29,4 @@
 /dog-training-reward-vs-aversive.html
 /dog-toothbrushing.html
 /korea-pet-registration.html
+/myth-grain-free-better.html
