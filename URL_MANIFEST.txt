@@ -30,3 +30,4 @@
 /dog-toothbrushing.html
 /korea-pet-registration.html
 /myth-grain-free-better.html
+/cat-toxic-hazards.html
