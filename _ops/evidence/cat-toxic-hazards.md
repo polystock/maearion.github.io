@@ -56,7 +56,7 @@
 | 아주 적은 노출도 생명 위협 | S4 | 본문 | "Even very small exposure to flurbiprofen can be potentially life-threatening to pets." |
 | 보관, 바른 부위 덮기 문의, 천·도구 처리, 씻기고 수의사, 증상 시 진료 | S4 | 권고 목록 | 같은 취지 |
 | 시드니 2차 병원 2000-01~2008-05, 42마리 | S5 | Abstract, Materials and methods | 같은 수치 |
-| 41마리 개용 스팟온, 39건 보호자 직접, 3건 개와 접촉 | S5 | Results | 같은 수치 |
+| 41마리 개용 스팟온, 1마리 집 안용 스프레이; 39건 보호자가 스팟온/스프레이 직접 도포; 3건 동거 개에 도포, 분리 여부 기록 없음 | S5 | Results | "In 41 cats a PSO product manufactured for use on dogs was applied. One cat had a permethrin household flea spray product applied." / "In 39 cases the owner of the cat directly applied the PSO/spray." / "it was not recorded whether or not the treated dogs and untreated cats were separated" |
 | 떨림 86%, 움찔 41%, 과민 41%, 발작 33% | S5 | Abstract/Results | 같은 수치 |
 | 첫 증상 중앙값 8시간(1~42) | S5 | Results | 같은 수치 |
 | 34/42(81%) 생존 퇴원, 1마리 안락사, 7마리 기록 불완전 | S5 | Results | 같은 수치 |
@@ -82,3 +82,6 @@
 - 「개 제품을 고양이에게 쓰지 않는 것… 라벨에서 고양이 관련 경고를 확인하는 것이 이 자료들에서 나오는 권고다」 — 출처에 없음
 - 5절 「보호자가 위험을 모르는 경우가 많다」 항목 — 불일치(S5에 '몰랐다'는 내용 없음)
 - 1차 검수 반영(수정): Bischoff 호수 「(2)」 삭제, Slater 공저자 표기를 JAAHA 페이지 표기로, 칼라·피스 릴리 「대개 저절로 사라진다」 추가, 「추적했다」→「전화 설문으로 조사했다」
+
+## PR 이후 정정 (2026-10-13)
+- 외부 검수가 지적한 S5 두 문장을 작성자가 원문 Results에서 직접 재확인해 수정: ①「그중 39건」→ 39건은 스팟온·스프레이 합계(1마리는 집 안용 스프레이) ②「떼어 놓지 않아」→ 원문은 분리 여부가 기록되지 않았다고 적음. FAQ 4(본문·front matter) 같은 취지로 수정.
