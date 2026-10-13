@@ -29,6 +29,7 @@
 | 상위 10개 사람 약에 이부프로펜·나프록센(NSAID) | S1 | 본문 | ibuprofen and naproxen among top 10 people medications eaten by pets |
 | 개가 가장 흔하고 고양이도 호기심으로 | S1 | 본문 | dogs most common culprit; cats and ferrets curiosity |
 | 원래 용기, 닿지 않는 곳, 어린이 보호 용기≠반려동물 안전, 따로 보관, 회수 프로그램, 섞어 밀봉 폐기, 수의사·중독 상담 연락 | S1 | 보관·폐기 팁, If a pet ingests 절 | 같은 취지 |
+| 회수 불가 시 FDA flush list 확인, 목록 약(예: 펜타닐 패치)은 변기 폐기, 목록에 없는 약은 섞어 밀봉해 생활 쓰레기 | S1 | Take It Back / Flush It / Trash It | "If you don’t have a drug take-back location near you, check if the medication is on FDA’s flush list." / "certain powerful and potentially dangerous medications by flushing" (외부 검수 C14 반영, 2026-10-14 원문 재열람) |
 | 아세트아미노펜은 NSAID 아님 | S2 | Acetaminophen 절 | not an NSAID |
 | 개·고양이 모두 간 손상, 용량 비례, 간부전 | S2 | Acetaminophen 절 | liver damage in dogs and cats, dose-related, may lead to liver failure |
 | 적혈구 손상·산소 운반 능력 상실, 고양이는 적혈구, 개는 간 | S2 | Acetaminophen 절 | 같은 취지 |
