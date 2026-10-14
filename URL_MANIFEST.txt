@@ -31,3 +31,4 @@
 /korea-pet-registration.html
 /myth-grain-free-better.html
 /cat-toxic-hazards.html
+/pet-human-medication-poisoning.html
