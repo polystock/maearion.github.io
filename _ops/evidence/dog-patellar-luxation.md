@@ -11,7 +11,7 @@
 | S1 | O'Neill DG, Meeson RL, Sheridan A, Church DB, Brodbelt DC. The epidemiology of patellar luxation in dogs attending primary-care veterinary practices in England. Canine Genet Epidemiol. 2016;3:4. doi:10.1186/s40575-016-0034-0 | link.springer.com 본문 | 원문 열람(전문. Table 3 전체는 렌더링 안 됨) |
 | S2 | Di Dona F, Della Valle G, Fatone G. Patellar luxation in dogs. Vet Med (Auckl) — Veterinary Medicine: Research and Reports. 2018;9:23–32 | dovepress.com 전문 | 원문 열람(리뷰 논문) |
 | S3 | Bosio F, Bufalari A, Peirone B, Petazzoni M, Vezzoni A. Prevalence, treatment and outcome of patellar luxation in dogs in Italy: a retrospective multicentric study (2009–2014). VCOT 2017;30(5):364–370. doi:10.3415/VCOT-16-05-0073 | iris.unito.it 저자 수락 원고 PDF (권·쪽은 thieme-connect 서지 표기로 확인) | 원문 열람(저자 수락 원고, 표 내용은 캡션만) |
-| S4 | Son C, Cheong J, Lee JM. Comparison of Tibial Tuberosity Transposition and Anti-rotation Suture for Medial Patellar Luxation in 133 Small-breed Dogs. J Vet Clin 2018;35(5):200–205. doi:10.17555/jvc.2018.10.35.5.200 | koreascience.or.kr PDF 전문 | 원문 열람 |
+| S4 | Son C, Cheong J, Lee JM. Comparison of Tibial Tuberosity Transposition and Anti-rotation Suture for Medial Patellar Luxation in 133 Small-breed Dogs. J Vet Clin 2018;35(5):200–205. doi:10.17555/jvc.2018.10.35.5.200 | koreascience.or.kr PDF 전문 | 원문 열람 — 2026-10-15 본문에서 삭제(외부 검수 열람 불가) |
 | S5 | Cornell University CVM, Riney Canine Health Center. Patellar Luxation (작성일 표기 없음) | vet.cornell.edu | 원문 열람(기관 자료) |
 
 ## 미열람·미사용(본문에 쓰지 않음)
@@ -43,9 +43,6 @@
 | 체중 평균 미만 OR 1.4, 중성화 OR 2.4 | S1 | Abstract, Results | 같음 |
 | 중성화: 연관만, 기전 불분명, 마지막 기록 기준 | S1 | Discussion, Methods | "pathogenesis ... currently unclear"; final EPR |
 | 등급(중증도) 평가 안 함 | S1 | Discussion | severity was not evaluated |
-| 제주대, 2013.1~2017.5, 내측 탈구 수술 소형견 133마리(무릎 182) | S4 | Materials and methods | 10kg 초과·외측·CCLR 제외 |
-| 몰티즈 57, 포메 23, 치와와 21, 푸들 12마리 | S4 | Table 2/3 | 편측+양측 합산 |
-| 품종별 위험도 계산 안 함 | S4 | 전체 | 분포만 제시 |
 | 복지 우선 과제, 소인 품종 번식 목표 고려 | S1 | Conclusions | "welfare priority"; "worthwhile breeding goals, especially in predisposed breeds" |
 | 플랫코티드 리트리버·포메라니안 유전체 연구 | S2 | Introduction, refs 18·19 | chromosome anomalies |
 | 깡충거리는 걸음, 뻗거나 털면 정상, 경증 무증상, 진행 시 잦아짐 | S5 | Clinical signs | 같음 |
@@ -59,12 +56,11 @@
 | 수술 510 중 449(88%) 양호; 1·2등급 92%; 불량 3등급 17%, 4등급 12% | S3 | Results(Outcome), Discussion | 같음 |
 | 주요 합병증 16%; 재발 7%(가장 흔함); 3등급 11% | S3 | Results(Complications), Discussion | 83/510; 38 stifles |
 | 합병증 관련 변수는 체중과 등급뿐 | S3 | Summary | Results 문장은 체중만 언급하고 등급 p=0.01 별도(원문 내부 불일치) |
-| TTT 합병증 16.8%·재탈구 2.0%, ARS 29.6%·9.9% | S4 | Results, Table 4 | 17/101, 2 / 24/81, 8 |
-| 회복 기간 4.0주 vs 5.8주(파행 합병증 없는 개) | S4 | Table 5 | n=169 |
-| 10주간 매주 보행 평가 | S4 | Methods/Results | 같음 |
 | 관절염 전 수술 시 결과 좋음; 중증은 수술 무관 관절염; 대형견 예후 덜 좋을 수 있음 | S5 | Outcome | 같음 |
 | 적정 체중 유지는 보존 관리 항목 | S5 | Treatment | 같음 |
 
 ## 검수 경과
 - 1차 독립 검수: 불일치 1건(Bosio 88%의 분모 — 보존 관리 포함으로 잘못 씀 → 수술 510개 기준으로 수정), 출처에 없음 9건(원고 해석·조언 문장 → 삭제 또는 출처 문장으로 교체), 열람 불가 0건. description·lead의 「등급만으로 정하지 않는다」를 1·2등급으로 한정.
 - 2차 독립 검수(새 에이전트): 불일치 0건, 출처에 없음 1건(Son 연구 「장기 결과는 다루지 않았다」 → 삭제), 열람 불가 0건. FAQ의 「같은 자료」 지시 모호 → 「코넬대 자료」로 명시. 「수술은 대개 여러 방법을 조합」에 출처(2018년 리뷰) 명시.
+- 외부 검수(커밋 3e331da): 일치 126 / 불일치 0 / 출처에 없음 0 / 열람 불가 13. 열람 불가는 모두 S4(Son 2018) 전문·표가 필요한 항목(C067–C078)과 S3·S4 비교 문장(C130).
+- 2026-10-15 으르신 결정 「안 되는 것 빼고 확실한 것으로」에 따라 S4 관련 문장 전부 삭제: 3절 제주대 품종 구성, 5절 제주대 수술 결과 단락, 5절 「두 연구 비교 불가」 문장, FAQ4의 제주대 재탈구·비교 문장, 참고 문헌 S4. 새 주장은 추가하지 않음.
