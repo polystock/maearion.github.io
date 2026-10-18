@@ -34,3 +34,4 @@
 /pet-human-medication-poisoning.html
 /dog-patellar-luxation.html
 /dog-treat-calorie-limit.html
+/pet-water-intake.html
