@@ -36,3 +36,4 @@
 /dog-treat-calorie-limit.html
 /pet-water-intake.html
 /myth-feeding-guide-on-bag.html
+/dog-senior-signs.html
