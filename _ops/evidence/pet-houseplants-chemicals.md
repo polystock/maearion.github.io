@@ -56,7 +56,7 @@
 | 피부·점막 출혈 73%(45), 체강 출혈 53%(33) | S5 | Results | "forty-five dogs (73%) had evidence of cutaneous or mucosal hemorrhage" / 33 (53%) cavitary |
 | 87%(54) 퇴원까지 생존, 78%(48) 수혈 | S5 | Results | "Fifty-four dogs (87%) survived to discharge." / "Forty-eight dogs (78%) received transfusion with blood products." |
 | 결론: 출혈 부위가 다양 | S5 | Conclusion | "dogs with anticoagulant rodenticide intoxication are likely to present with diverse locations of hemorrhage" |
-| 한계: 후향적, 섭취 이력 확인된 환자만 | S5 | Discussion | "the inclusion of patients only with known history of ingestion" |
+| 후향 연구; 진단 경로: 접근·목격 이력+응고 시간 연장 57마리, GCMS 5마리 | S5 | Materials and Methods, Results | "Dogs were included in the study when anticoagulant ingestion was confirmed based on history, including known access or witnessed ingestion in combination with prolonged prothrombin time ... or with gas chromatography mass spectroscopy (GCMS)." / "Five dogs were diagnosed based on GCMS while the remaining fifty-seven dogs were diagnosed based on the combination of known access/exposure or witnessed ingestion and prolongation of clotting times." |
 | 에틸렌글리콜 = 부동액(라디에이터 첨가제) 주성분 | S6 | Abstract | "Ethylene glycol (E/G) is the active anti-freeze principle in radiator water additives." |
 | 냄새·색 없음, 단맛 | S6 | Abstract | "It is odourless, colourless and has a sweet taste." |
 | 고양이 5mL, 개 20mL로도 죽을 수 있음 | S6 | Abstract | "As little as 5 mℓ or 20 mℓ is sufficient to kill a cat or a dog, respectively." |
@@ -73,3 +73,4 @@
 - 1차 검수 출처에 없음: 경고 상자의 "증상이 없어도"(FDA 원문에 없음) → 삭제
 - 1차 검수 출처에 없음: "미국의 대학 동물병원 2곳"(S5에 소재국 미기재) → "미국의" 삭제
 - 2차 검수(새 에이전트): 불일치 0 / 출처에 없음 0 / 열람 불가 0
+- 외부 검수(PR #23 댓글, d962ee3) 반영: "섭취 이력이 확인된 개만 포함" → 진단 경로 2가지(이력+응고검사 57, GCMS 5)로 고쳐 씀
