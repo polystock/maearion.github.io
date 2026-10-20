@@ -37,3 +37,4 @@
 /pet-water-intake.html
 /myth-feeding-guide-on-bag.html
 /dog-senior-signs.html
+/myth-human-food-forbidden.html
