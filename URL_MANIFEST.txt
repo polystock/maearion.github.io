@@ -39,3 +39,4 @@
 /dog-senior-signs.html
 /myth-human-food-forbidden.html
 /pet-houseplants-chemicals.html
+/pet-food-type-comparison.html
