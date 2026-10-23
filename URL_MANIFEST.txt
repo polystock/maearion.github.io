@@ -11,6 +11,7 @@
 /cat-dog-metabolism.html
 /cat-dog-senses.html
 /dog-aging-biology.html
+/cat-aging-biology.html
 /dog-joint-supplement-guide.html
 /dog-weight-joint-health.html
 /dog-muscle-management.html
