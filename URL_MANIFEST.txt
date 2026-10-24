@@ -42,3 +42,4 @@
 /myth-human-food-forbidden.html
 /pet-houseplants-chemicals.html
 /pet-food-type-comparison.html
+/pet-market-size-estimates.html
