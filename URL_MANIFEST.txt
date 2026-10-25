@@ -13,6 +13,7 @@
 /dog-aging-biology.html
 /cat-aging-biology.html
 /pet-body-temperature-sleep.html
+/breed-genetic-predisposition.html
 /dog-joint-supplement-guide.html
 /dog-weight-joint-health.html
 /dog-muscle-management.html
