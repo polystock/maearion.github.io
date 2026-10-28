@@ -25,3 +25,17 @@
 - korea-pet-registration | adoption | 동물등록제 — 대상, 방법, 과태료
 - pet-market-size-estimates | data | 반려동물 시장 규모 추정치는 왜 다른가
 - breed-genetic-predisposition | basics | 품종별 유전 질환 소인
+
+추가 (2026-10-28, 분류 페이지 "앞으로 다룰 주제" 예고분)
+
+- puppy-kitten-socialization | behavior | 사회화 시기 — 언제, 무엇을, 놓치면 어떻게 되나
+- adoption-shelter-process | adoption | 입양 절차와 보호소 입양
+- pet-bathing-skin-coat | care | 목욕과 피부·털 관리
+- pet-digestive-physiology | basics | 소화기의 기본 생리
+- pet-senior-health-changes | health | 관절 외 노령기 변화 — 신장, 갑상선, 치아, 시력·청력
+- dog-separation-problems | behavior | 분리 관련 문제행동
+- pet-law-labeling | adoption | 반려동물 관련 법과 표시 기준
+- dog-walk-exercise | care | 산책과 운동량
+- dog-cat-body-language | behavior | 개와 고양이의 몸짓 신호
+- vet-cost-insurance | adoption | 동물병원 진료비와 반려동물 보험
+- cat-litter-indoor-environment | care | 고양이 화장실과 실내 환경
