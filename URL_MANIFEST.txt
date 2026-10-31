@@ -46,3 +46,4 @@
 /pet-market-size-estimates.html
 /adoption-shelter-process.html
 /puppy-kitten-socialization.html
+/pet-bathing-skin-coat.html
