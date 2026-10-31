@@ -44,3 +44,4 @@
 /pet-houseplants-chemicals.html
 /pet-food-type-comparison.html
 /pet-market-size-estimates.html
+/adoption-shelter-process.html
