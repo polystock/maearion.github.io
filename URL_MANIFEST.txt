@@ -47,3 +47,4 @@
 /adoption-shelter-process.html
 /puppy-kitten-socialization.html
 /pet-digestive-physiology.html
+/pet-bathing-skin-coat.html
