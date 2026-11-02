@@ -36,7 +36,7 @@
 | 크레아티닌 1단계인데 SDMA 지속적으로 >18이면 2단계로 분류·치료 | S1 | PDF 3쪽 | 개: SDMA persistently >18 with creatinine <125 → stage 2; 고양이: >18 with creatinine <140 → stage 2 |
 | 신체검사·크레아티닌·요비중·SDMA·예측 알고리즘 병용이 크레아티닌 단독보다 나음 | S2 | Recommended diagnostics | "is more powerful than simply evaluating serum creatinine concentration alone." |
 | 수분 상태가 매우 중요, CKD와 당뇨병이 체액을 서서히 잃게 함 | S2 | Senior cat physical examination | hydration extremely important; CKD and diabetes mellitus "produce a gradual loss of body fluid." |
-| CKD 있는 모든 개·고양이에서 UP/C 측정 | S1 | PDF 4쪽 | UP/C "should be measured in all dogs and cats with CKD" |
+| 요로 염증·출혈 증거 없고 이상단백혈증 배제 시, CKD 있는 모든 개·고양이에서 UP/C 측정 | S1 | PDF 4쪽 | UP/C "should be measured in all dogs and cats with CKD" — 요로 염증·출혈 증거 없음, 일상 혈장 단백 검사로 이상단백혈증 배제가 전제 |
 | 적어도 2주에 걸친 소변 두 번 이상 | S1 | PDF 4쪽 | "at least two urine samples collected over a period of at least 2 weeks" |
 | UP/C 기준 개 <0.2 / 0.2–0.5 / >0.5, 고양이 <0.2 / 0.2–0.4 / >0.4 | S1 | PDF 4쪽 표 | Non-proteinuric / Borderline proteinuric / Proteinuric |
 | 경계 지속 시 2개월 안 재평가 | S1 | PDF 4쪽 | "should be re-evaluated within 2 months" |
@@ -55,4 +55,5 @@
 ## 검수 반영
 - 1차 독립 검수: 불일치 0건, 출처에 없음 4건 → 리드의 도입 비교 문장 교체, 6절 "2~4절 검사로 확인하는 것이 지침의 흐름" 삭제, 7절 "집에서도 기록" → "진료 때마다 기록"(S2 표현), 7절 AAHA 노령견 주기 수치 삭제(링크만 남김). 표현 강도 조정: 혈압 "필수" → "진료 때마다 잰 혈압이 꼭 필요한 정보"(S2 "provides essential information"), "심한 손상" → "되돌릴 수 없을 수도 있는 손상", 시각 사냥견 "필요할 수 있다" → "있으면 쓰는 것이 바람직".
 - 2차 독립 검수(새 에이전트): 불일치 0건, 출처에 없음 1건(시각 사냥견 예시 "그레이하운드") → 삭제. 백내장을 S2 원문대로 "국소적이거나 선 모양의 백내장"으로 한정. description 오탈자 수정.
-- 2차 검수 지적(반영 안 함, 기록만): S1의 UP/C 측정 전제(요로 염증·출혈 없음, 이상단백혈증 배제) 생략, SDMA 기준이 특정 측정법 기반이라는 단서 생략.
+- 2차 검수 지적: SDMA 기준이 특정 측정법 기반이라는 단서 생략(반영 안 함, 기록만).
+- PR 외부 검수(b93438f): C14 불일치 — UP/C 측정 권고의 전제(요로 염증·출혈 없음, 이상단백혈증 배제) 누락 → 3절 문장에 전제 추가.
