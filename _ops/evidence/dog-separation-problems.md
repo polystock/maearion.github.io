@@ -32,7 +32,7 @@
 | SRB = 보호자 부재 시 문제 행동을 가리키는 용어 | S3 | Introduction | "we refer to problematic canine behaviours when owners are absent as SRBs" |
 | S1: 개 개체군의 20%로 추정된 바 있음(인용) | S1 | Introduction | "The incidence of separation-related behavior problems has been estimated at 20% of the dog population." (ref 20) |
 | 핀란드 13,715마리, 보호자 온라인 설문, 주로 페이스북 모집 | S2 | Abstract; Results(Demography); Methods(Subjects) | "online behaviour questionnaire answered by dog owners"; "We collected 13,715 responses in 264 dog breeds."; "mainly recruited from a social media (Facebook) channel" |
-| 분리 관련 행동 정의: 분리불안이 있다고 답하고, 파괴/배뇨 또는 발성/침/헐떡임을 자주(3) 이상 | S2 | Methods(Separation related behaviour) | "High group dogs were reported to exhibit separation anxiety and performed at least one of these behaviours often (3) or very often." |
+| 분리 관련 행동 정의: 분리불안이 있다고 답하고, 파괴/배뇨 자주(3) 이상, 또는 침/헐떡임 자주 이상, 또는 짖음 자주 이상+침/헐떡임 드물게 이상 | S2 | Methods(Separation related behaviour) | "High group dogs were reported to exhibit separation anxiety and performed at least one of these behaviours often (3) or very often."; "With the subtrait vocalize/salivate/pant, high group dogs were reported to salivate or pant at least often (3–4), or barked at least often (3–4) and salivated or panted at least rarely (1–4)." |
 | 유병률 5%(가장 드문 특성 중 하나) | S2 | Results(Prevalence) | "Separation related behaviour and aggression were the most uncommon traits with prevalences of 5% and 14%" (Discussion에는 6% — 본문에 "약 5~6%"로 적음) |
 | 이전 연구는 2~3배 높았음 — 빈도 높은 개만 포함했기 때문일 수 있음 | S2 | Discussion | "Previously, the prevalence of separation anxiety has been 2–3 times higher than in this present study, possibly because we only included dogs with high frequencies" |
 | 소음 민감 32%, 두려움 29% | S2 | Results(Prevalence) | "Noise sensitivity … 32%"; "Fear … 29%" |
@@ -85,3 +85,6 @@
 - §1 "직접 알 수 없기 때문에, 연구에서는 감정을 가정하지 않고" → 이유가 출처에 없음. 해당 구절 삭제, "2024년 영국 연구는 … '분리 관련 행동'이라고 불렀다"(검수 일치 항목)만 남김.
 - 표현 보정: "관련된 요인 가운데 일부"(Table 6의 새 간식·time-out 요인 미기재), "약 6배" → "오즈비 약 5.8"(Table 6 OR 5.76).
 - 참고: Dale 논문 안에서 귀가 시 법석 요인의 최종 모델 포함 여부가 Table 6(포함, OR 5.76)과 Discussion 일부 문장 사이에 어긋난다는 검수자 지적이 있음. Table 6과 초록("six times more likely") 기준으로 유지.
+
+## 외부 검수 반영 (2026-11-05 KST, PR #36 댓글, SHA 8caec16)
+- C11 불일치: Salonen 사례 기준에서 발성/침/헐떡임 하위군은 침·헐떡임 자주 이상, 또는 짖음 자주 이상+침·헐떡임 드물게 이상이어야 함. 작성 시 열람 원문(Methods)으로 확인 후 §2 문장 수정.
