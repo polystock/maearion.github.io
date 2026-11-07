@@ -49,3 +49,4 @@
 /pet-digestive-physiology.html
 /pet-bathing-skin-coat.html
 /pet-law-labeling.html
+/pet-senior-health-changes.html
