@@ -49,3 +49,4 @@
 /pet-digestive-physiology.html
 /pet-bathing-skin-coat.html
 /dog-separation-problems.html
+/pet-senior-health-changes.html
