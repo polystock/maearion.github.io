@@ -51,3 +51,4 @@
 /pet-law-labeling.html
 /dog-separation-problems.html
 /pet-senior-health-changes.html
+/dog-walk-exercise.html
