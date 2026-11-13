@@ -53,3 +53,4 @@
 /pet-senior-health-changes.html
 /dog-walk-exercise.html
 /dog-cat-body-language.html
+/vet-cost-insurance.html
