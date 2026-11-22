@@ -39,3 +39,21 @@
 - dog-cat-body-language | behavior | 개와 고양이의 몸짓 신호
 - vet-cost-insurance | adoption | 동물병원 진료비와 반려동물 보험
 - cat-litter-indoor-environment | care | 고양이 화장실과 실내 환경
+
+추가 (2026-11-22, 소비자 검색어 기반 — 유튜브 한국 검색어 vidIQ 추정치. 1~5번은 월 3~5천 회, 6~15번은 월 750회 미만)
+
+- cat-hiding-zoomies | behavior | 고양이가 숨는 이유, 새벽 우다다의 이유
+- dog-cough-cold | health | 강아지 "감기" — 기침·켄넬코프(감염성 호흡기 질환) 증상과 병원 갈 때
+- myth-dog-circling-before-pooping | myths | "강아지가 배변 전 빙글빙글 도는 데는 이유가 있다"는 사실인가
+- dog-destructive-chewing | behavior | 강아지가 벽지·물건을 뜯는 이유
+- dog-tear-staining | health | 강아지 눈물과 눈물 자국 — 원인과 확인할 것
+- cat-vomiting | health | 고양이가 토하는 이유 — 헤어볼과 질병 신호 구분
+- cat-chronic-kidney-disease | health | 고양이 만성 신장병 — 초기 신호와 IRIS 단계
+- cat-lower-urinary-tract | health | 고양이가 화장실에 자주 가거나 울 때 — 하부요로질환
+- dog-pancreatitis | health | 강아지 췌장염 — 초기 증상과 위험 요인
+- dog-ivdd | health | 강아지 디스크(추간판 질환) 증상
+- dog-meningoencephalitis | health | 강아지 뇌수막염(원인 불명 수막뇌염) — 소형견 소인
+- dog-paw-licking | health | 강아지가 발을 계속 핥는 이유 — 알레르기와 피부 질환
+- cat-petting-biting | behavior | 고양이가 쓰다듬다가 갑자기 무는 이유
+- cat-purring | basics | 고양이 골골송은 왜 내나
+- pet-end-of-life-quality | care | 노령 반려동물의 마지막 시기 — 신호와 삶의 질 평가
