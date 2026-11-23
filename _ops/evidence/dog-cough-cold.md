@@ -9,14 +9,14 @@
 | # | 자료 | 열람 경로 | 상태 |
 |---|---|---|---|
 | R1 | Reagan KL, Sykes JE. Canine Infectious Respiratory Disease. Vet Clin North Am Small Anim Pract. 2020;50(2):405–418. doi:10.1016/j.cvsm.2019.10.009 (PMC7132485) | pmc.ncbi.nlm.nih.gov/articles/PMC7132485 | 앞쪽 약 4만 자(Key points, 서론, 표 1, 병원체별 절, Diagnosis, Treatment, Prevention 일부) 원문 열람. 나머지는 요약만 → 미사용 |
-| L1 | Lappin MR, Blondeau J, Booth D, et al. Antimicrobial use guidelines for treatment of respiratory tract disease in dogs and cats (ISCAID). J Vet Intern Med 2017. doi:10.1111/jvim.14627 | rvc-repository.worktribe.com/OutputFile/1393452 (저자 원고 PDF) | 본문 pp.1–12 원문 열람(두 번에 나눠). 참고문헌 목록은 요약만. 권·쪽 번호는 열람본에 인쇄되지 않아 쓰지 않음 |
+| L1 | Lappin MR, Blondeau J, Boothe D, et al. Antimicrobial use guidelines for treatment of respiratory tract disease in dogs and cats (ISCAID). J Vet Intern Med 2017. doi:10.1111/jvim.14627 | rvc-repository.worktribe.com/OutputFile/1393452 (저자 원고 PDF) | 본문 pp.1–12 원문 열람(두 번에 나눠). 참고문헌 목록은 요약만. 권·쪽 번호는 열람본에 인쇄되지 않아 쓰지 않음 |
 | W1 | Squires RA, Crawford C, Marcondes M, Whitley N. 2024 guidelines for the vaccination of dogs and cats (WSAVA VGG). J Small Anim Pract 2024. doi:10.1111/jsap.13718 | wsava.org 영문 Executive Summary PDF + 같은 사이트의 스페인어판 전문 PDF | 영문: Executive Summary 원문. 스페인어판: pp.1–18, pp.34–40 원문. pp.18–34(보호소 절 포함)는 요약만 → 미사용 |
 
 ## 미열람·사용 안 함
 - Song D 외 2008, Emerg Infect Dis (한국 개 H3N2) — 접근 권한 문제로 열람 실패. 쓰지 않음.
 - ISCAID 지침 Wiley 원문 페이지 — 열람 실패(저자 원고로 대체).
 - R1 중후반(예방·관리 절 후반) — 요약만. 격리 기간 등 요약 내용 쓰지 않음.
-- 기관 허탈·심장병 등 비감염성 기침 원인 — 열람 자료에 없음. 본문에서 "다루지 않음"으로만 언급.
+- 기관 허탈·심장병 등 비감염성 기침 원인 — 편집 범위 밖. 본문에서 "다루지 않는다"로만 언급(외부 검수 지적: ISCAID 기관지염 진단 절에 심장 변화·기관 허탈 평가 언급 있음 → "열람 자료에 없음" 표현 삭제).
 
 ## 문장별 근거
 
@@ -77,3 +77,4 @@
 ## 검수 반영 기록
 - 1차 검수(2026-11-24): 일치 66 / 불일치 1 / 출처에 없음 0 / 열람 불가 0. 불일치 1건(기침 억제제 금기 일반화) 수정. 주석 2건(방사선 사진 한정어, 보르데텔라 경구 백신 위치) 문구 수정.
 - 2차 검수(2026-11-24, 새 에이전트): 본문 66건 일치 / 불일치 0 / 출처에 없음 0. 참고문헌 서지 3건 추가 확인 일치(WSAVA 영문 제목은 작성자가 영문 Executive Summary 원문 표제에서 확인). 범위 주의 2건 반영: 정리 절·FAQ3의 백신 문장에 "디스템퍼 제외" 추가, FAQ1의 원인 검사 권고 출처를 "리뷰 논문"으로 명시. 삭제한 문장 없음(초고 단계에서 근거 없는 문장 3개는 검수 전 삭제: 다른 개와 접촉 줄이기, 어린 강아지 일반 주의, 백신 없는 병원체).
+- 외부 검수(2026-11-24, PR 댓글, 87eb67c 대상): 일치 90 / 불일치 3. 반영: (1) 비감염성 기침을 "열람 자료에서 다루지 않아" → "이 문서에서 다루지 않는다" (2) "1차 자료" 표현 → "리뷰 논문 1편과 학회 지침 2건" (3) 참고문헌 저자 Booth D → Boothe D. 새 사실 주장 추가 없음.
