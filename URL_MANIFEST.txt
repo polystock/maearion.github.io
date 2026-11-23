@@ -55,3 +55,4 @@
 /dog-cat-body-language.html
 /vet-cost-insurance.html
 /cat-litter-indoor-environment.html
+/cat-hiding-zoomies.html
