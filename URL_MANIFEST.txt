@@ -56,3 +56,4 @@
 /vet-cost-insurance.html
 /cat-litter-indoor-environment.html
 /cat-hiding-zoomies.html
+/dog-cough-cold.html
