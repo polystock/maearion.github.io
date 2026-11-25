@@ -38,7 +38,7 @@
 | 모든 나이에서 혼자 있을 때, 일과 변화 때 나타날 수 있음(인용) | S1 | 4.4.1 | triggers in all age groups: being home alone (ref 177), change in routine (ref 139) |
 | 각성을 낮추려는 시도일 수 있음 | S1 | 4.4.1 | destructive chewing may be an attempt to reduce arousal (ref 131) |
 | 증상이자 경고 신호 → 감정 상태 고려, 환경 풍부화, 씹을 자유 | S1 | 4.4.1 | symptom and red flag; carers should consider emotional state, enrich environment, allow freedom to chew |
-| 스페인 수의사 236명 조사: 가장 흔한 행동 호소는 파괴 행동(인용) | S1 | 4.4.1 | veterinarians in Spain (n = 236): most frequent behaviour-related complaint = destructiveness (ref 176) |
+| 스페인 수의사 설문: 보호자가 가장 자주 호소한 행동 문제는 파괴 행동(인용, 236은 본문에 쓰지 않음) | S1 | 4.4.1 | veterinarians in Spain (n = 236): most frequent behaviour-related complaint = destructiveness (ref 176) |
 | 씹기 부족이 상동 행동·파괴적 씹기·지나친 짖음·반복 핥기의 위험 요인일 수 있다(저자 가설) | S1 | 4.4.1 | "we may propose" lack of chewing as risk factor (ref 175) |
 | 씹을 거리 선택은 주로 냄새·맛·입에 닿는 느낌 | S1 | Abstract | "A dog's preference for chew items is primarily driven by odour, taste, and mouthfeel." |
 | 좋아하는 씹을 거리가 없으면 덜 적절한 물건으로 옮겨 감, 치아·위장관에 해로운 비식용 씹을 거리 포함 | S1 | Abstract | "A lack of preferred chew items may result in redirected chewing toward less appropriate items" … "non-food chews that could be harmful to dentition or the gastrointestinal tract (GIT)" |
@@ -50,7 +50,7 @@
 | 1주일 뒤 원치 않는 물건 씹기·몸 물기 빈도 변화 없음(보호자 보고) | S2 | Abstract Results | "Owner reports suggest no changes in the frequency of dogs chewing on undesired items and mouthing or nipping on body parts during the 1-week period for either toy type." |
 | 향은 관심을 높이지만 장난감만으로 보호자 인식 변화 없음, 체계적 보호자 훈련 연구 제안 | S2 | Abstract Discussion | scent can increase engagement; chew toys did not change owner perceptions; future work should test structured owner-implemented training |
 | 한계: 29마리, 1주일, 향 장난감에 삑삑이 포함 | S2 | 2.1; 2.2 (설계 사실) | 표본·기간·장난감 구성 |
-| 콩+매일 긍정 강화로 보호소 개 58마리의 바람직한 행동 비율 증가, 장난감 단독 효과는 분리 안 됨(인용) | S1 | 4.4.1 | Kong filled with food plus daily positive reinforcement improved desirable behaviours in shelter dogs (n = 58) (ref 179); combined, so Kong alone not isolated |
+| 콩+매일 긍정 강화로 보호소 개의 바람직한 행동이 나아짐(인용, 58은 본문에 쓰지 않음), 장난감 단독 효과는 분리 안 됨 | S1 | 4.4.1 | Kong filled with food plus daily positive reinforcement improved desirable behaviours in shelter dogs (n = 58) (ref 179); combined, so Kong alone not isolated |
 | 두 집단 모두 보호자의 절반가량이 건드리면 안 되는 물건 씹기가 줄었다고 답함 | S2 | 3.1.1 | fewer off-limit chewing episodes: 50% (7/14) scented, 46.7% (7/15) non-scented |
 
 ## 1차 독립 검수 반영 (2026-11-26)
@@ -59,3 +59,7 @@
 - "혼자 있을 때만 그런다면 분리 관련 문제일 수 있다"(3절, FAQ2) — 출처에 없음 → 삭제, 3절은 사이트 내 문서 안내 문장으로만 남김.
 - 6절 "줄지 않았다" → 저자 요약("변화가 없었다") 형태로 고치고, 5절에 3.1.1의 "절반가량 줄었다고 답함"을 함께 적음.
 - "이갈이 시기" → "teething"의 뜻에 맞게 "이가 나기 시작하는"으로 고침.
+
+## 외부 검수 반영 (2026-11-26, 검수 대상 8c29c4f)
+- 외부 검수 불일치 3건(C35, C61, C62): Quinn 검토가 붙인 n(236, 58)이 원연구(Fatjó 등; Herron 등)에서는 전체 조사 규모나 처치군 크기가 아님(236은 한 문항의 응답자 수, 58은 재관찰한 처치군+대조군의 합). 또 결과 지표는 행동이 늘어난 개의 비율이라는 지적.
+- 작성자는 원연구 원문을 직접 열지 않았으므로 외부 검수가 제시한 원연구 수치(433, 107, 48/59, 17/26 등)는 넣지 않음(절대 규칙 6). 대신 본문에서 236과 58을 지우고, "바람직한 행동의 비율이 늘었다"를 "바람직한 행동이 나아졌다"로 바꿈.
